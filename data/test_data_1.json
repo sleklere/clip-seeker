@@ -1,0 +1,4933 @@
+{
+    "text": " C++, un idioma de programaci\u00f3n compilado est\u00e9ticamente, famoso por su uso amplio en la infraestructura de software y famoso por su curva de aprendizaje profunda. Fue creado en 1979 por Bjorn Straustrup en AT&T Bell Labs. Fue inspirado por la naturaleza de la simulaci\u00f3n, pero necesitaba un idioma con una alta performance de C, y as\u00ed, C con clases, fue nacido. Se dise\u00f1\u00f3 como un super set de C, lo que significa que casi cualquier programa de C es tambi\u00e9n un programa de C++, pero tambi\u00e9n a\u00f1ade abstracciones sin sobrevaluaci\u00f3n, como patrones orientados a objetos, como polimorfismo, encapsulaci\u00f3n y heredidad. Hoy en d\u00eda se usa en una gran variedad de sistemas con demandas de memoria constrictas, como el engine Unreal para juegos de videojuegos AAA, programas como Adobe After Effects que fueron usados para editar este video, databases como MySQL y MongoDB, sistemas embedidos como el display en tu toaster de computadoras, y es usado para implementar mucho de nuestros juegos de videojuegos de nivel bajo. Tambi\u00e9n se usa para implementar infraestructura, como compiladores de lenguaje y m\u00e1quinas virtuales. Es tan popular porque ofrece control de memoria y hardware de nivel bajo como C, pero con abstracciones de nivel alto como clases y pointers inteligentes. C++ hace que sea m\u00e1s dif\u00edcil dispararte en el pie, pero cuando lo haces, te va a matar. Para empezar, instala un compilador de C++ como GCC o Clang, luego crea un file terminando en CPP. Incluye un stream de I.O. de la biblioteca para gestionar la entrada y la salida. Tu c\u00f3digo comenzar\u00e1 a ejecutarse desde la funci\u00f3n principal. Para imprimir Hello World, simplemente usamos standard, y el output de character followed by the bitwise shift left operator and a string literal. Podemos eliminar este STD, por supuesto, a\u00f1adiendo un namespace a la parte superior del file. Ahora, si queremos crear una variable de string, podemos hacerlo al escribirla como un array de personajes. Sin embargo, si incluimos string de la biblioteca, podemos usar el type string. El cambio real, por supuesto, es el hecho de que C++ apoya programaci\u00f3n orientada a objetos con clases. Una clase es solo un blueprint para un objeto. Dentro de una clase, puedes definir atributos y m\u00e9todos que ser\u00e1n privados por default, o hacerlos p\u00fablicos. Tambi\u00e9n es posible definir m\u00e9todos fuera de la definici\u00f3n de la clase usando un doble colon. Los m\u00e9todos tambi\u00e9n pueden ser definidos m\u00faltiples veces con diferentes par\u00e1metros, lo que se conoce como overloading y es una forma de polimorfismo. Adem\u00e1s, podemos definir constructores y destructores para ejecutar c\u00f3digo cuando un objeto es creado o destruido. Las clases tambi\u00e9n apoyan la heredidad, permitiendo a los desarrolladores compartir la l\u00f3gica m\u00e1s eficientemente a trav\u00e9s de un programa. Para instanciar un objeto, escoge el nombre de la clase, seguido por el nombre de tu objeto, y opcionalmente cualquier par\u00e1metro para el constructor. Cuando se trata de memoria, podr\u00edamos manejar todo manualmente con par\u00e1metros y referencias. Sin embargo, herramientas como UniquePointer pueden hacer el trabajo de una manera m\u00e1s f\u00e1cil y segura, asegur\u00e1ndonos de que solo un objeto puede ser adquirido a memoria. Ahora, para ejecutar tu c\u00f3digo, abre el terminal y utiliza una herramienta como Clang++ para compilarlo. Esto ha sido C++ en 100 segundos. Dale a like y suscr\u00edbete si quieres ver m\u00e1s videos cortos como este. Gracias por ver y te ver\u00e9 en el pr\u00f3ximo.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 8.6,
+            "text": " C++, un idioma de programaci\u00f3n compilado est\u00e9ticamente, famoso por su uso amplio en la infraestructura de software y famoso por su curva de aprendizaje profunda.",
+            "tokens": [
+                50365,
+                383,
+                25472,
+                11,
+                517,
+                18014,
+                6440,
+                368,
+                1461,
+                3482,
+                715,
+                388,
+                1573,
+                871,
+                4051,
+                23653,
+                11,
+                49526,
+                1515,
+                459,
+                22728,
+                9731,
+                1004,
+                465,
+                635,
+                23654,
+                43056,
+                2991,
+                368,
+                4722,
+                288,
+                49526,
+                1515,
+                459,
+                1262,
+                2757,
+                368,
+                21003,
+                590,
+                11153,
+                1740,
+                11946,
+                13,
+                50797
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3173175034699617,
+            "compression_ratio": 1.4857142857142858,
+            "no_speech_prob": 0.04140673950314522,
+            "words": [
+                {
+                    "word": " C++,",
+                    "start": 0.0,
+                    "end": 1.02,
+                    "probability": 0.9230506122112274
+                },
+                {
+                    "word": " un",
+                    "start": 1.36,
+                    "end": 1.7,
+                    "probability": 0.491816908121109
+                },
+                {
+                    "word": " idioma",
+                    "start": 1.7,
+                    "end": 2.02,
+                    "probability": 0.8575069606304169
+                },
+                {
+                    "word": " de",
+                    "start": 2.02,
+                    "end": 2.04,
+                    "probability": 0.657680869102478
+                },
+                {
+                    "word": " programaci\u00f3n",
+                    "start": 2.04,
+                    "end": 3.42,
+                    "probability": 0.8921608626842499
+                },
+                {
+                    "word": " compilado",
+                    "start": 3.42,
+                    "end": 3.8,
+                    "probability": 0.7011326452096304
+                },
+                {
+                    "word": " est\u00e9ticamente,",
+                    "start": 3.8,
+                    "end": 3.8,
+                    "probability": 0.498211145401001
+                },
+                {
+                    "word": " famoso",
+                    "start": 3.8,
+                    "end": 4.14,
+                    "probability": 0.8342050909996033
+                },
+                {
+                    "word": " por",
+                    "start": 4.14,
+                    "end": 4.46,
+                    "probability": 0.9793297052383423
+                },
+                {
+                    "word": " su",
+                    "start": 4.46,
+                    "end": 4.54,
+                    "probability": 0.9777838587760925
+                },
+                {
+                    "word": " uso",
+                    "start": 4.54,
+                    "end": 4.78,
+                    "probability": 0.9359338879585266
+                },
+                {
+                    "word": " amplio",
+                    "start": 4.78,
+                    "end": 4.92,
+                    "probability": 0.6384715586900711
+                },
+                {
+                    "word": " en",
+                    "start": 4.92,
+                    "end": 5.32,
+                    "probability": 0.817780613899231
+                },
+                {
+                    "word": " la",
+                    "start": 5.32,
+                    "end": 5.52,
+                    "probability": 0.6402637362480164
+                },
+                {
+                    "word": " infraestructura",
+                    "start": 5.52,
+                    "end": 6.56,
+                    "probability": 0.9968214631080627
+                },
+                {
+                    "word": " de",
+                    "start": 6.56,
+                    "end": 6.56,
+                    "probability": 0.6486062407493591
+                },
+                {
+                    "word": " software",
+                    "start": 6.56,
+                    "end": 6.56,
+                    "probability": 0.8563960194587708
+                },
+                {
+                    "word": " y",
+                    "start": 6.56,
+                    "end": 6.62,
+                    "probability": 0.5365898609161377
+                },
+                {
+                    "word": " famoso",
+                    "start": 6.62,
+                    "end": 7.04,
+                    "probability": 0.21002759039402008
+                },
+                {
+                    "word": " por",
+                    "start": 7.04,
+                    "end": 7.48,
+                    "probability": 0.9947102069854736
+                },
+                {
+                    "word": " su",
+                    "start": 7.48,
+                    "end": 7.66,
+                    "probability": 0.9881083369255066
+                },
+                {
+                    "word": " curva",
+                    "start": 7.66,
+                    "end": 8.6,
+                    "probability": 0.9501218795776367
+                },
+                {
+                    "word": " de",
+                    "start": 8.6,
+                    "end": 8.6,
+                    "probability": 0.9232128262519836
+                },
+                {
+                    "word": " aprendizaje",
+                    "start": 8.6,
+                    "end": 8.6,
+                    "probability": 0.9923394719759623
+                },
+                {
+                    "word": " profunda.",
+                    "start": 8.6,
+                    "end": 8.6,
+                    "probability": 0.6756886541843414
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 8.6,
+            "end": 13.16,
+            "text": " Fue creado en 1979 por Bjorn Straustrup en AT&T Bell Labs.",
+            "tokens": [
+                50797,
+                479,
+                622,
+                1197,
+                1573,
+                465,
+                30595,
+                1515,
+                49660,
+                1865,
+                12875,
+                381,
+                11976,
+                465,
+                8872,
+                5,
+                51,
+                11485,
+                40047,
+                13,
+                51030
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3173175034699617,
+            "compression_ratio": 1.4857142857142858,
+            "no_speech_prob": 0.04140673950314522,
+            "words": [
+                {
+                    "word": " Fue",
+                    "start": 8.6,
+                    "end": 8.78,
+                    "probability": 0.8337996006011963
+                },
+                {
+                    "word": " creado",
+                    "start": 8.78,
+                    "end": 9.14,
+                    "probability": 0.9785168468952179
+                },
+                {
+                    "word": " en",
+                    "start": 9.14,
+                    "end": 9.3,
+                    "probability": 0.9966309666633606
+                },
+                {
+                    "word": " 1979",
+                    "start": 9.3,
+                    "end": 9.94,
+                    "probability": 0.993137776851654
+                },
+                {
+                    "word": " por",
+                    "start": 9.94,
+                    "end": 10.58,
+                    "probability": 0.9671247601509094
+                },
+                {
+                    "word": " Bjorn",
+                    "start": 10.58,
+                    "end": 11.0,
+                    "probability": 0.7792830765247345
+                },
+                {
+                    "word": " Straustrup",
+                    "start": 11.0,
+                    "end": 11.74,
+                    "probability": 0.7040800352891287
+                },
+                {
+                    "word": " en",
+                    "start": 11.74,
+                    "end": 11.88,
+                    "probability": 0.8432973027229309
+                },
+                {
+                    "word": " AT",
+                    "start": 11.88,
+                    "end": 12.24,
+                    "probability": 0.8510985970497131
+                },
+                {
+                    "word": "&T",
+                    "start": 12.24,
+                    "end": 12.54,
+                    "probability": 0.9974101483821869
+                },
+                {
+                    "word": " Bell",
+                    "start": 12.54,
+                    "end": 12.8,
+                    "probability": 0.9932969212532043
+                },
+                {
+                    "word": " Labs.",
+                    "start": 12.8,
+                    "end": 13.16,
+                    "probability": 0.9895049333572388
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 13.3,
+            "end": 20.5,
+            "text": " Fue inspirado por la naturaleza de la simulaci\u00f3n, pero necesitaba un idioma con una alta performance de C, y as\u00ed, C con clases, fue nacido.",
+            "tokens": [
+                51036,
+                479,
+                622,
+                17432,
+                1573,
+                1515,
+                635,
+                40877,
+                2394,
+                368,
+                635,
+                1034,
+                425,
+                3482,
+                11,
+                4768,
+                38661,
+                5509,
+                517,
+                18014,
+                6440,
+                416,
+                2002,
+                26495,
+                3389,
+                368,
+                383,
+                11,
+                288,
+                8582,
+                11,
+                383,
+                416,
+                596,
+                1957,
+                11,
+                9248,
+                42071,
+                2925,
+                13,
+                51393
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3173175034699617,
+            "compression_ratio": 1.4857142857142858,
+            "no_speech_prob": 0.04140673950314522,
+            "words": [
+                {
+                    "word": " Fue",
+                    "start": 13.3,
+                    "end": 13.42,
+                    "probability": 0.9352324903011322
+                },
+                {
+                    "word": " inspirado",
+                    "start": 13.42,
+                    "end": 13.96,
+                    "probability": 0.9982527196407318
+                },
+                {
+                    "word": " por",
+                    "start": 13.96,
+                    "end": 14.12,
+                    "probability": 0.8838490843772888
+                },
+                {
+                    "word": " la",
+                    "start": 14.12,
+                    "end": 14.24,
+                    "probability": 0.9905739426612854
+                },
+                {
+                    "word": " naturaleza",
+                    "start": 14.24,
+                    "end": 15.56,
+                    "probability": 0.969637393951416
+                },
+                {
+                    "word": " de",
+                    "start": 15.56,
+                    "end": 15.62,
+                    "probability": 0.7270227670669556
+                },
+                {
+                    "word": " la",
+                    "start": 15.62,
+                    "end": 15.72,
+                    "probability": 0.5369154214859009
+                },
+                {
+                    "word": " simulaci\u00f3n,",
+                    "start": 15.72,
+                    "end": 16.26,
+                    "probability": 0.8718144694964091
+                },
+                {
+                    "word": " pero",
+                    "start": 16.26,
+                    "end": 16.44,
+                    "probability": 0.8663963675498962
+                },
+                {
+                    "word": " necesitaba",
+                    "start": 16.44,
+                    "end": 16.84,
+                    "probability": 0.8846530318260193
+                },
+                {
+                    "word": " un",
+                    "start": 16.84,
+                    "end": 16.92,
+                    "probability": 0.8804513812065125
+                },
+                {
+                    "word": " idioma",
+                    "start": 16.92,
+                    "end": 17.24,
+                    "probability": 0.9943844974040985
+                },
+                {
+                    "word": " con",
+                    "start": 17.24,
+                    "end": 17.34,
+                    "probability": 0.9570607542991638
+                },
+                {
+                    "word": " una",
+                    "start": 17.34,
+                    "end": 17.44,
+                    "probability": 0.8870043158531189
+                },
+                {
+                    "word": " alta",
+                    "start": 17.44,
+                    "end": 17.6,
+                    "probability": 0.49791422486305237
+                },
+                {
+                    "word": " performance",
+                    "start": 17.6,
+                    "end": 18.0,
+                    "probability": 0.41983792185783386
+                },
+                {
+                    "word": " de",
+                    "start": 18.0,
+                    "end": 18.26,
+                    "probability": 0.900001049041748
+                },
+                {
+                    "word": " C,",
+                    "start": 18.26,
+                    "end": 18.4,
+                    "probability": 0.9497949481010437
+                },
+                {
+                    "word": " y",
+                    "start": 18.58,
+                    "end": 18.78,
+                    "probability": 0.8547889590263367
+                },
+                {
+                    "word": " as\u00ed,",
+                    "start": 18.78,
+                    "end": 18.92,
+                    "probability": 0.5519806742668152
+                },
+                {
+                    "word": " C",
+                    "start": 19.16,
+                    "end": 19.4,
+                    "probability": 0.9220349192619324
+                },
+                {
+                    "word": " con",
+                    "start": 19.4,
+                    "end": 19.58,
+                    "probability": 0.6885554194450378
+                },
+                {
+                    "word": " clases,",
+                    "start": 19.58,
+                    "end": 19.98,
+                    "probability": 0.8813100755214691
+                },
+                {
+                    "word": " fue",
+                    "start": 19.98,
+                    "end": 20.2,
+                    "probability": 0.38986465334892273
+                },
+                {
+                    "word": " nacido.",
+                    "start": 20.2,
+                    "end": 20.5,
+                    "probability": 0.7863938510417938
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 2050,
+            "start": 20.5,
+            "end": 26.12,
+            "text": " Se dise\u00f1\u00f3 como un super set de C, lo que significa que casi cualquier programa de C es tambi\u00e9n un programa de C++,",
+            "tokens": [
+                50365,
+                1100,
+                3814,
+                2791,
+                812,
+                2617,
+                517,
+                1687,
+                992,
+                368,
+                383,
+                11,
+                450,
+                631,
+                19957,
+                631,
+                22567,
+                21004,
+                21846,
+                368,
+                383,
+                785,
+                6407,
+                517,
+                21846,
+                368,
+                383,
+                25472,
+                11,
+                50653
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3570301658228824,
+            "compression_ratio": 1.7244094488188977,
+            "no_speech_prob": 0.07980673015117645,
+            "words": [
+                {
+                    "word": " Se",
+                    "start": 20.5,
+                    "end": 20.8,
+                    "probability": 0.05858089402318001
+                },
+                {
+                    "word": " dise\u00f1\u00f3",
+                    "start": 20.8,
+                    "end": 21.28,
+                    "probability": 0.6873124539852142
+                },
+                {
+                    "word": " como",
+                    "start": 21.28,
+                    "end": 21.44,
+                    "probability": 0.9759540557861328
+                },
+                {
+                    "word": " un",
+                    "start": 21.44,
+                    "end": 21.64,
+                    "probability": 0.6765511631965637
+                },
+                {
+                    "word": " super",
+                    "start": 21.64,
+                    "end": 21.84,
+                    "probability": 0.508507251739502
+                },
+                {
+                    "word": " set",
+                    "start": 21.84,
+                    "end": 22.08,
+                    "probability": 0.3117979168891907
+                },
+                {
+                    "word": " de",
+                    "start": 22.08,
+                    "end": 22.2,
+                    "probability": 0.9503060579299927
+                },
+                {
+                    "word": " C,",
+                    "start": 22.2,
+                    "end": 22.38,
+                    "probability": 0.9178436398506165
+                },
+                {
+                    "word": " lo",
+                    "start": 22.54,
+                    "end": 22.74,
+                    "probability": 0.9784740805625916
+                },
+                {
+                    "word": " que",
+                    "start": 22.74,
+                    "end": 22.74,
+                    "probability": 0.941092848777771
+                },
+                {
+                    "word": " significa",
+                    "start": 22.74,
+                    "end": 22.98,
+                    "probability": 0.9698917269706726
+                },
+                {
+                    "word": " que",
+                    "start": 22.98,
+                    "end": 23.2,
+                    "probability": 0.9994352459907532
+                },
+                {
+                    "word": " casi",
+                    "start": 23.2,
+                    "end": 23.46,
+                    "probability": 0.7773342728614807
+                },
+                {
+                    "word": " cualquier",
+                    "start": 23.46,
+                    "end": 23.72,
+                    "probability": 0.8761723637580872
+                },
+                {
+                    "word": " programa",
+                    "start": 23.72,
+                    "end": 24.0,
+                    "probability": 0.9408915638923645
+                },
+                {
+                    "word": " de",
+                    "start": 24.0,
+                    "end": 24.0,
+                    "probability": 0.3286876678466797
+                },
+                {
+                    "word": " C",
+                    "start": 24.0,
+                    "end": 24.0,
+                    "probability": 0.951511800289154
+                },
+                {
+                    "word": " es",
+                    "start": 24.0,
+                    "end": 24.7,
+                    "probability": 0.670320987701416
+                },
+                {
+                    "word": " tambi\u00e9n",
+                    "start": 24.7,
+                    "end": 25.1,
+                    "probability": 0.7627111673355103
+                },
+                {
+                    "word": " un",
+                    "start": 25.1,
+                    "end": 25.32,
+                    "probability": 0.988166093826294
+                },
+                {
+                    "word": " programa",
+                    "start": 25.32,
+                    "end": 25.5,
+                    "probability": 0.9520328640937805
+                },
+                {
+                    "word": " de",
+                    "start": 25.5,
+                    "end": 25.5,
+                    "probability": 0.4809379279613495
+                },
+                {
+                    "word": " C++,",
+                    "start": 25.5,
+                    "end": 26.12,
+                    "probability": 0.9741509258747101
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 2050,
+            "start": 26.52,
+            "end": 33.98,
+            "text": " pero tambi\u00e9n a\u00f1ade abstracciones sin sobrevaluaci\u00f3n, como patrones orientados a objetos, como polimorfismo, encapsulaci\u00f3n y heredidad.",
+            "tokens": [
+                50653,
+                4768,
+                6407,
+                37837,
+                762,
+                410,
+                9733,
+                8476,
+                5411,
+                3343,
+                5473,
+                3337,
+                84,
+                3482,
+                11,
+                2617,
+                21843,
+                279,
+                8579,
+                4181,
+                257,
+                49605,
+                11,
+                2617,
+                1180,
+                332,
+                28030,
+                6882,
+                11,
+                38745,
+                425,
+                3482,
+                288,
+                720,
+                292,
+                4580,
+                13,
+                51047
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3570301658228824,
+            "compression_ratio": 1.7244094488188977,
+            "no_speech_prob": 0.07980673015117645,
+            "words": [
+                {
+                    "word": " pero",
+                    "start": 26.52,
+                    "end": 27.0,
+                    "probability": 0.981814444065094
+                },
+                {
+                    "word": " tambi\u00e9n",
+                    "start": 27.0,
+                    "end": 27.22,
+                    "probability": 0.9544955492019653
+                },
+                {
+                    "word": " a\u00f1ade",
+                    "start": 27.22,
+                    "end": 27.76,
+                    "probability": 0.6213267147541046
+                },
+                {
+                    "word": " abstracciones",
+                    "start": 27.76,
+                    "end": 28.04,
+                    "probability": 0.8270039781928062
+                },
+                {
+                    "word": " sin",
+                    "start": 28.04,
+                    "end": 28.04,
+                    "probability": 0.6429407000541687
+                },
+                {
+                    "word": " sobrevaluaci\u00f3n,",
+                    "start": 28.04,
+                    "end": 28.64,
+                    "probability": 0.39254261273890734
+                },
+                {
+                    "word": " como",
+                    "start": 29.1,
+                    "end": 29.66,
+                    "probability": 0.9751284718513489
+                },
+                {
+                    "word": " patrones",
+                    "start": 29.66,
+                    "end": 30.14,
+                    "probability": 0.7510002553462982
+                },
+                {
+                    "word": " orientados",
+                    "start": 30.14,
+                    "end": 30.7,
+                    "probability": 0.8065198957920074
+                },
+                {
+                    "word": " a",
+                    "start": 30.7,
+                    "end": 30.84,
+                    "probability": 0.6007760167121887
+                },
+                {
+                    "word": " objetos,",
+                    "start": 30.84,
+                    "end": 30.96,
+                    "probability": 0.8929660320281982
+                },
+                {
+                    "word": " como",
+                    "start": 30.96,
+                    "end": 31.36,
+                    "probability": 0.9839730262756348
+                },
+                {
+                    "word": " polimorfismo,",
+                    "start": 31.36,
+                    "end": 32.18,
+                    "probability": 0.9727820158004761
+                },
+                {
+                    "word": " encapsulaci\u00f3n",
+                    "start": 32.34,
+                    "end": 33.08,
+                    "probability": 0.9965041875839233
+                },
+                {
+                    "word": " y",
+                    "start": 33.08,
+                    "end": 33.42,
+                    "probability": 0.8204385638237
+                },
+                {
+                    "word": " heredidad.",
+                    "start": 33.42,
+                    "end": 33.98,
+                    "probability": 0.5390864362319311
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 2050,
+            "start": 34.16,
+            "end": 40.16,
+            "text": " Hoy en d\u00eda se usa en una gran variedad de sistemas con demandas de memoria constrictas, como el engine Unreal para juegos de videojuegos AAA,",
+            "tokens": [
+                51053,
+                28664,
+                465,
+                12271,
+                369,
+                29909,
+                465,
+                2002,
+                9370,
+                22877,
+                345,
+                368,
+                48720,
+                416,
+                4733,
+                296,
+                368,
+                1334,
+                8172,
+                1817,
+                3740,
+                296,
+                11,
+                2617,
+                806,
+                2848,
+                34464,
+                1690,
+                43411,
+                368,
+                960,
+                73,
+                622,
+                18674,
+                34347,
+                11,
+                51338
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3570301658228824,
+            "compression_ratio": 1.7244094488188977,
+            "no_speech_prob": 0.07980673015117645,
+            "words": [
+                {
+                    "word": " Hoy",
+                    "start": 34.16,
+                    "end": 34.4,
+                    "probability": 0.9746323227882385
+                },
+                {
+                    "word": " en",
+                    "start": 34.4,
+                    "end": 34.6,
+                    "probability": 0.8166248202323914
+                },
+                {
+                    "word": " d\u00eda",
+                    "start": 34.6,
+                    "end": 34.62,
+                    "probability": 0.9941786527633667
+                },
+                {
+                    "word": " se",
+                    "start": 34.62,
+                    "end": 34.78,
+                    "probability": 0.7037826180458069
+                },
+                {
+                    "word": " usa",
+                    "start": 34.78,
+                    "end": 35.0,
+                    "probability": 0.9020882844924927
+                },
+                {
+                    "word": " en",
+                    "start": 35.0,
+                    "end": 35.14,
+                    "probability": 0.9997373223304749
+                },
+                {
+                    "word": " una",
+                    "start": 35.14,
+                    "end": 35.24,
+                    "probability": 0.9213363528251648
+                },
+                {
+                    "word": " gran",
+                    "start": 35.24,
+                    "end": 35.48,
+                    "probability": 0.5882410407066345
+                },
+                {
+                    "word": " variedad",
+                    "start": 35.48,
+                    "end": 35.7,
+                    "probability": 0.9809352159500122
+                },
+                {
+                    "word": " de",
+                    "start": 35.7,
+                    "end": 35.86,
+                    "probability": 0.9999936819076538
+                },
+                {
+                    "word": " sistemas",
+                    "start": 35.86,
+                    "end": 36.1,
+                    "probability": 0.9988653659820557
+                },
+                {
+                    "word": " con",
+                    "start": 36.1,
+                    "end": 36.5,
+                    "probability": 0.9995049238204956
+                },
+                {
+                    "word": " demandas",
+                    "start": 36.5,
+                    "end": 36.84,
+                    "probability": 0.9242303371429443
+                },
+                {
+                    "word": " de",
+                    "start": 36.84,
+                    "end": 37.06,
+                    "probability": 0.9913791418075562
+                },
+                {
+                    "word": " memoria",
+                    "start": 37.06,
+                    "end": 37.28,
+                    "probability": 0.9886782169342041
+                },
+                {
+                    "word": " constrictas,",
+                    "start": 37.28,
+                    "end": 37.48,
+                    "probability": 0.48827895273764926
+                },
+                {
+                    "word": " como",
+                    "start": 37.52,
+                    "end": 38.0,
+                    "probability": 0.9987918734550476
+                },
+                {
+                    "word": " el",
+                    "start": 38.0,
+                    "end": 38.14,
+                    "probability": 0.8689770102500916
+                },
+                {
+                    "word": " engine",
+                    "start": 38.14,
+                    "end": 38.3,
+                    "probability": 0.20043452084064484
+                },
+                {
+                    "word": " Unreal",
+                    "start": 38.3,
+                    "end": 38.88,
+                    "probability": 0.8761388659477234
+                },
+                {
+                    "word": " para",
+                    "start": 38.88,
+                    "end": 39.06,
+                    "probability": 0.9854447245597839
+                },
+                {
+                    "word": " juegos",
+                    "start": 39.06,
+                    "end": 39.36,
+                    "probability": 0.4800088703632355
+                },
+                {
+                    "word": " de",
+                    "start": 39.36,
+                    "end": 39.36,
+                    "probability": 0.8239472508430481
+                },
+                {
+                    "word": " videojuegos",
+                    "start": 39.36,
+                    "end": 40.16,
+                    "probability": 0.9749590307474136
+                },
+                {
+                    "word": " AAA,",
+                    "start": 40.16,
+                    "end": 40.16,
+                    "probability": 0.9690732359886169
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "seek": 2050,
+            "start": 40.16,
+            "end": 43.12,
+            "text": " programas como Adobe After Effects que fueron usados para editar este video,",
+            "tokens": [
+                51357,
+                1461,
+                296,
+                2617,
+                24862,
+                2381,
+                34515,
+                631,
+                28739,
+                505,
+                4181,
+                1690,
+                1257,
+                3981,
+                4065,
+                960,
+                11,
+                51499
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3570301658228824,
+            "compression_ratio": 1.7244094488188977,
+            "no_speech_prob": 0.07980673015117645,
+            "words": [
+                {
+                    "word": " programas",
+                    "start": 40.16,
+                    "end": 40.62,
+                    "probability": 0.9989418387413025
+                },
+                {
+                    "word": " como",
+                    "start": 40.62,
+                    "end": 40.8,
+                    "probability": 0.9990450739860535
+                },
+                {
+                    "word": " Adobe",
+                    "start": 40.8,
+                    "end": 41.02,
+                    "probability": 0.9972695708274841
+                },
+                {
+                    "word": " After",
+                    "start": 41.02,
+                    "end": 41.44,
+                    "probability": 0.9982917904853821
+                },
+                {
+                    "word": " Effects",
+                    "start": 41.44,
+                    "end": 41.78,
+                    "probability": 0.999309778213501
+                },
+                {
+                    "word": " que",
+                    "start": 41.78,
+                    "end": 42.0,
+                    "probability": 0.9871082901954651
+                },
+                {
+                    "word": " fueron",
+                    "start": 42.0,
+                    "end": 42.12,
+                    "probability": 0.41627153754234314
+                },
+                {
+                    "word": " usados",
+                    "start": 42.12,
+                    "end": 42.36,
+                    "probability": 0.9803838133811951
+                },
+                {
+                    "word": " para",
+                    "start": 42.36,
+                    "end": 42.5,
+                    "probability": 0.999516487121582
+                },
+                {
+                    "word": " editar",
+                    "start": 42.5,
+                    "end": 42.74,
+                    "probability": 0.9784243106842041
+                },
+                {
+                    "word": " este",
+                    "start": 42.74,
+                    "end": 42.84,
+                    "probability": 0.9915383458137512
+                },
+                {
+                    "word": " video,",
+                    "start": 42.84,
+                    "end": 43.12,
+                    "probability": 0.9271358847618103
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "seek": 2050,
+            "start": 43.32,
+            "end": 48.38,
+            "text": " databases como MySQL y MongoDB, sistemas embedidos como el display en tu toaster de computadoras,",
+            "tokens": [
+                51517,
+                22380,
+                2617,
+                1222,
+                39934,
+                288,
+                48380,
+                27735,
+                11,
+                48720,
+                12240,
+                7895,
+                2617,
+                806,
+                4674,
+                465,
+                2604,
+                281,
+                1727,
+                368,
+                2807,
+                5409,
+                296,
+                11,
+                51757
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3570301658228824,
+            "compression_ratio": 1.7244094488188977,
+            "no_speech_prob": 0.07980673015117645,
+            "words": [
+                {
+                    "word": " databases",
+                    "start": 43.32,
+                    "end": 43.66,
+                    "probability": 0.4493681490421295
+                },
+                {
+                    "word": " como",
+                    "start": 43.66,
+                    "end": 44.28,
+                    "probability": 0.9992747902870178
+                },
+                {
+                    "word": " MySQL",
+                    "start": 44.28,
+                    "end": 44.9,
+                    "probability": 0.9978759288787842
+                },
+                {
+                    "word": " y",
+                    "start": 44.9,
+                    "end": 45.2,
+                    "probability": 0.9987176656723022
+                },
+                {
+                    "word": " MongoDB,",
+                    "start": 45.2,
+                    "end": 45.68,
+                    "probability": 0.999262660741806
+                },
+                {
+                    "word": " sistemas",
+                    "start": 45.98,
+                    "end": 46.18,
+                    "probability": 0.9920733571052551
+                },
+                {
+                    "word": " embedidos",
+                    "start": 46.18,
+                    "end": 46.84,
+                    "probability": 0.7546279430389404
+                },
+                {
+                    "word": " como",
+                    "start": 46.84,
+                    "end": 46.98,
+                    "probability": 0.9991307854652405
+                },
+                {
+                    "word": " el",
+                    "start": 46.98,
+                    "end": 47.1,
+                    "probability": 0.9834392666816711
+                },
+                {
+                    "word": " display",
+                    "start": 47.1,
+                    "end": 47.42,
+                    "probability": 0.7546263337135315
+                },
+                {
+                    "word": " en",
+                    "start": 47.42,
+                    "end": 47.56,
+                    "probability": 0.9929962754249573
+                },
+                {
+                    "word": " tu",
+                    "start": 47.56,
+                    "end": 47.7,
+                    "probability": 0.9160444140434265
+                },
+                {
+                    "word": " toaster",
+                    "start": 47.7,
+                    "end": 48.28,
+                    "probability": 0.8823420703411102
+                },
+                {
+                    "word": " de",
+                    "start": 48.28,
+                    "end": 48.28,
+                    "probability": 0.36774110794067383
+                },
+                {
+                    "word": " computadoras,",
+                    "start": 48.28,
+                    "end": 48.38,
+                    "probability": 0.3108271857102712
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "seek": 2050,
+            "start": 48.38,
+            "end": 50.34,
+            "text": " y es usado para implementar mucho de nuestros juegos de videojuegos de nivel bajo.",
+            "tokens": [
+                51757,
+                288,
+                785,
+                505,
+                1573,
+                1690,
+                4445,
+                289,
+                9824,
+                368,
+                24099,
+                43411,
+                368,
+                960,
+                73,
+                622,
+                18674,
+                368,
+                24423,
+                30139,
+                13,
+                51864
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3570301658228824,
+            "compression_ratio": 1.7244094488188977,
+            "no_speech_prob": 0.07980673015117645,
+            "words": [
+                {
+                    "word": " y",
+                    "start": 48.38,
+                    "end": 48.52,
+                    "probability": 0.9975989460945129
+                },
+                {
+                    "word": " es",
+                    "start": 48.52,
+                    "end": 48.66,
+                    "probability": 0.5330471396446228
+                },
+                {
+                    "word": " usado",
+                    "start": 48.66,
+                    "end": 49.0,
+                    "probability": 0.978923887014389
+                },
+                {
+                    "word": " para",
+                    "start": 49.0,
+                    "end": 49.16,
+                    "probability": 0.9991890788078308
+                },
+                {
+                    "word": " implementar",
+                    "start": 49.16,
+                    "end": 49.48,
+                    "probability": 0.9969008564949036
+                },
+                {
+                    "word": " mucho",
+                    "start": 49.48,
+                    "end": 49.72,
+                    "probability": 0.5429955124855042
+                },
+                {
+                    "word": " de",
+                    "start": 49.72,
+                    "end": 49.82,
+                    "probability": 0.9997770190238953
+                },
+                {
+                    "word": " nuestros",
+                    "start": 49.82,
+                    "end": 49.96,
+                    "probability": 0.7004586458206177
+                },
+                {
+                    "word": " juegos",
+                    "start": 49.96,
+                    "end": 50.1,
+                    "probability": 0.24853868782520294
+                },
+                {
+                    "word": " de",
+                    "start": 50.1,
+                    "end": 50.14,
+                    "probability": 0.8836374282836914
+                },
+                {
+                    "word": " videojuegos",
+                    "start": 50.14,
+                    "end": 50.26,
+                    "probability": 0.8401746228337288
+                },
+                {
+                    "word": " de",
+                    "start": 50.26,
+                    "end": 50.26,
+                    "probability": 0.6999934315681458
+                },
+                {
+                    "word": " nivel",
+                    "start": 50.26,
+                    "end": 50.26,
+                    "probability": 0.3974872827529907
+                },
+                {
+                    "word": " bajo.",
+                    "start": 50.26,
+                    "end": 50.34,
+                    "probability": 0.4907796382904053
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "seek": 5050,
+            "start": 50.5,
+            "end": 52.9,
+            "text": " Tambi\u00e9n se usa para implementar infraestructura, como compiladores de lenguaje y m\u00e1quinas virtuales.",
+            "tokens": [
+                50365,
+                25682,
+                369,
+                29909,
+                1690,
+                4445,
+                289,
+                23654,
+                43056,
+                2991,
+                11,
+                2617,
+                715,
+                388,
+                11856,
+                368,
+                35044,
+                84,
+                11153,
+                288,
+                39701,
+                17094,
+                6374,
+                279,
+                13,
+                50509
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " Tambi\u00e9n",
+                    "start": 50.5,
+                    "end": 50.5,
+                    "probability": 0.0010870372643694282
+                },
+                {
+                    "word": " se",
+                    "start": 50.5,
+                    "end": 50.5,
+                    "probability": 0.13209083676338196
+                },
+                {
+                    "word": " usa",
+                    "start": 50.5,
+                    "end": 50.5,
+                    "probability": 0.05367846414446831
+                },
+                {
+                    "word": " para",
+                    "start": 50.5,
+                    "end": 50.5,
+                    "probability": 0.6781759262084961
+                },
+                {
+                    "word": " implementar",
+                    "start": 50.5,
+                    "end": 50.5,
+                    "probability": 0.4551128433085978
+                },
+                {
+                    "word": " infraestructura,",
+                    "start": 50.5,
+                    "end": 51.06,
+                    "probability": 0.6796204050381979
+                },
+                {
+                    "word": " como",
+                    "start": 51.1,
+                    "end": 51.3,
+                    "probability": 0.9559715390205383
+                },
+                {
+                    "word": " compiladores",
+                    "start": 51.3,
+                    "end": 52.1,
+                    "probability": 0.9269282023111979
+                },
+                {
+                    "word": " de",
+                    "start": 52.1,
+                    "end": 52.28,
+                    "probability": 0.9586470127105713
+                },
+                {
+                    "word": " lenguaje",
+                    "start": 52.28,
+                    "end": 52.28,
+                    "probability": 0.7252478698889414
+                },
+                {
+                    "word": " y",
+                    "start": 52.28,
+                    "end": 52.38,
+                    "probability": 0.7356375455856323
+                },
+                {
+                    "word": " m\u00e1quinas",
+                    "start": 52.38,
+                    "end": 52.66,
+                    "probability": 0.9675280749797821
+                },
+                {
+                    "word": " virtuales.",
+                    "start": 52.66,
+                    "end": 52.9,
+                    "probability": 0.9795868694782257
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "seek": 5050,
+            "start": 53.36,
+            "end": 56.92,
+            "text": " Es tan popular porque ofrece control de memoria y hardware de nivel bajo como C,",
+            "tokens": [
+                50513,
+                2313,
+                7603,
+                3743,
+                4021,
+                295,
+                44209,
+                1969,
+                368,
+                1334,
+                8172,
+                288,
+                8837,
+                368,
+                24423,
+                30139,
+                2617,
+                383,
+                11,
+                50696
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " Es",
+                    "start": 53.36,
+                    "end": 53.52,
+                    "probability": 0.885020911693573
+                },
+                {
+                    "word": " tan",
+                    "start": 53.52,
+                    "end": 53.72,
+                    "probability": 0.8794174194335938
+                },
+                {
+                    "word": " popular",
+                    "start": 53.72,
+                    "end": 54.06,
+                    "probability": 0.9683152437210083
+                },
+                {
+                    "word": " porque",
+                    "start": 54.06,
+                    "end": 54.38,
+                    "probability": 0.9232738614082336
+                },
+                {
+                    "word": " ofrece",
+                    "start": 54.38,
+                    "end": 54.84,
+                    "probability": 0.8335732817649841
+                },
+                {
+                    "word": " control",
+                    "start": 54.84,
+                    "end": 55.1,
+                    "probability": 0.7454670667648315
+                },
+                {
+                    "word": " de",
+                    "start": 55.1,
+                    "end": 55.1,
+                    "probability": 0.7157105803489685
+                },
+                {
+                    "word": " memoria",
+                    "start": 55.1,
+                    "end": 55.72,
+                    "probability": 0.6383748054504395
+                },
+                {
+                    "word": " y",
+                    "start": 55.72,
+                    "end": 55.86,
+                    "probability": 0.9336409568786621
+                },
+                {
+                    "word": " hardware",
+                    "start": 55.86,
+                    "end": 56.14,
+                    "probability": 0.7490479350090027
+                },
+                {
+                    "word": " de",
+                    "start": 56.14,
+                    "end": 56.3,
+                    "probability": 0.355728417634964
+                },
+                {
+                    "word": " nivel",
+                    "start": 56.3,
+                    "end": 56.66,
+                    "probability": 0.06482451409101486
+                },
+                {
+                    "word": " bajo",
+                    "start": 56.66,
+                    "end": 56.66,
+                    "probability": 0.6648103594779968
+                },
+                {
+                    "word": " como",
+                    "start": 56.66,
+                    "end": 56.66,
+                    "probability": 0.8068332076072693
+                },
+                {
+                    "word": " C,",
+                    "start": 56.66,
+                    "end": 56.92,
+                    "probability": 0.8312178254127502
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "seek": 5050,
+            "start": 57.12,
+            "end": 60.18,
+            "text": " pero con abstracciones de nivel alto como clases y pointers inteligentes.",
+            "tokens": [
+                50702,
+                4768,
+                416,
+                410,
+                9733,
+                8476,
+                5411,
+                368,
+                24423,
+                21275,
+                2617,
+                596,
+                1957,
+                288,
+                44548,
+                44300,
+                9240,
+                13,
+                50863
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " pero",
+                    "start": 57.12,
+                    "end": 57.4,
+                    "probability": 0.9033363461494446
+                },
+                {
+                    "word": " con",
+                    "start": 57.4,
+                    "end": 57.56,
+                    "probability": 0.9629590511322021
+                },
+                {
+                    "word": " abstracciones",
+                    "start": 57.56,
+                    "end": 58.72,
+                    "probability": 0.8603634610772133
+                },
+                {
+                    "word": " de",
+                    "start": 58.72,
+                    "end": 58.88,
+                    "probability": 0.8803932666778564
+                },
+                {
+                    "word": " nivel",
+                    "start": 58.88,
+                    "end": 58.88,
+                    "probability": 0.6781496405601501
+                },
+                {
+                    "word": " alto",
+                    "start": 58.88,
+                    "end": 58.88,
+                    "probability": 0.8931086659431458
+                },
+                {
+                    "word": " como",
+                    "start": 58.88,
+                    "end": 59.02,
+                    "probability": 0.8758183121681213
+                },
+                {
+                    "word": " clases",
+                    "start": 59.02,
+                    "end": 59.46,
+                    "probability": 0.9578590095043182
+                },
+                {
+                    "word": " y",
+                    "start": 59.46,
+                    "end": 59.68,
+                    "probability": 0.9490591883659363
+                },
+                {
+                    "word": " pointers",
+                    "start": 59.68,
+                    "end": 59.98,
+                    "probability": 0.07810693234205246
+                },
+                {
+                    "word": " inteligentes.",
+                    "start": 59.98,
+                    "end": 60.18,
+                    "probability": 0.710188627243042
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "seek": 5050,
+            "start": 60.6,
+            "end": 64.32,
+            "text": " C++ hace que sea m\u00e1s dif\u00edcil dispararte en el pie, pero cuando lo haces, te va a matar.",
+            "tokens": [
+                50875,
+                383,
+                25472,
+                10032,
+                631,
+                4158,
+                3573,
+                17258,
+                14548,
+                11026,
+                465,
+                806,
+                1730,
+                11,
+                4768,
+                7767,
+                450,
+                324,
+                887,
+                11,
+                535,
+                2773,
+                257,
+                39208,
+                13,
+                51081
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " C++",
+                    "start": 60.6,
+                    "end": 61.04,
+                    "probability": 0.9711124897003174
+                },
+                {
+                    "word": " hace",
+                    "start": 61.04,
+                    "end": 61.44,
+                    "probability": 0.7300831079483032
+                },
+                {
+                    "word": " que",
+                    "start": 61.44,
+                    "end": 61.58,
+                    "probability": 0.6365941166877747
+                },
+                {
+                    "word": " sea",
+                    "start": 61.58,
+                    "end": 61.68,
+                    "probability": 0.934869647026062
+                },
+                {
+                    "word": " m\u00e1s",
+                    "start": 61.68,
+                    "end": 61.76,
+                    "probability": 0.9339280724525452
+                },
+                {
+                    "word": " dif\u00edcil",
+                    "start": 61.76,
+                    "end": 61.94,
+                    "probability": 0.9086881279945374
+                },
+                {
+                    "word": " dispararte",
+                    "start": 61.94,
+                    "end": 62.4,
+                    "probability": 0.5750218480825424
+                },
+                {
+                    "word": " en",
+                    "start": 62.4,
+                    "end": 62.74,
+                    "probability": 0.6108760237693787
+                },
+                {
+                    "word": " el",
+                    "start": 62.74,
+                    "end": 62.82,
+                    "probability": 0.5521498322486877
+                },
+                {
+                    "word": " pie,",
+                    "start": 62.82,
+                    "end": 62.98,
+                    "probability": 0.3104597330093384
+                },
+                {
+                    "word": " pero",
+                    "start": 63.08,
+                    "end": 63.26,
+                    "probability": 0.9874024391174316
+                },
+                {
+                    "word": " cuando",
+                    "start": 63.26,
+                    "end": 63.4,
+                    "probability": 0.8721436262130737
+                },
+                {
+                    "word": " lo",
+                    "start": 63.4,
+                    "end": 63.52,
+                    "probability": 0.9502393007278442
+                },
+                {
+                    "word": " haces,",
+                    "start": 63.52,
+                    "end": 63.76,
+                    "probability": 0.9342930316925049
+                },
+                {
+                    "word": " te",
+                    "start": 63.76,
+                    "end": 64.0,
+                    "probability": 0.6966589093208313
+                },
+                {
+                    "word": " va",
+                    "start": 64.0,
+                    "end": 64.04,
+                    "probability": 0.4179782271385193
+                },
+                {
+                    "word": " a",
+                    "start": 64.04,
+                    "end": 64.1,
+                    "probability": 0.9899774789810181
+                },
+                {
+                    "word": " matar.",
+                    "start": 64.1,
+                    "end": 64.32,
+                    "probability": 0.07642456144094467
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "seek": 5050,
+            "start": 65.68,
+            "end": 70.28,
+            "text": " Para empezar, instala un compilador de C++ como GCC o Clang,",
+            "tokens": [
+                51137,
+                11107,
+                31168,
+                11,
+                1058,
+                5159,
+                517,
+                715,
+                388,
+                5409,
+                368,
+                383,
+                25472,
+                2617,
+                460,
+                11717,
+                277,
+                2033,
+                656,
+                11,
+                51357
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " Para",
+                    "start": 65.68,
+                    "end": 66.12,
+                    "probability": 0.8743666410446167
+                },
+                {
+                    "word": " empezar,",
+                    "start": 66.12,
+                    "end": 66.56,
+                    "probability": 0.5287416577339172
+                },
+                {
+                    "word": " instala",
+                    "start": 66.86,
+                    "end": 67.3,
+                    "probability": 0.8518765568733215
+                },
+                {
+                    "word": " un",
+                    "start": 67.3,
+                    "end": 67.48,
+                    "probability": 0.9659833312034607
+                },
+                {
+                    "word": " compilador",
+                    "start": 67.48,
+                    "end": 67.62,
+                    "probability": 0.9384737014770508
+                },
+                {
+                    "word": " de",
+                    "start": 67.62,
+                    "end": 67.62,
+                    "probability": 0.4224209785461426
+                },
+                {
+                    "word": " C++",
+                    "start": 67.62,
+                    "end": 67.98,
+                    "probability": 0.9776927828788757
+                },
+                {
+                    "word": " como",
+                    "start": 67.98,
+                    "end": 68.9,
+                    "probability": 0.8693371415138245
+                },
+                {
+                    "word": " GCC",
+                    "start": 68.9,
+                    "end": 69.46,
+                    "probability": 0.9574288427829742
+                },
+                {
+                    "word": " o",
+                    "start": 69.46,
+                    "end": 69.72,
+                    "probability": 0.9836326241493225
+                },
+                {
+                    "word": " Clang,",
+                    "start": 69.72,
+                    "end": 70.28,
+                    "probability": 0.9565849602222443
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "seek": 5050,
+            "start": 70.34,
+            "end": 72.06,
+            "text": " luego crea un file terminando en CPP.",
+            "tokens": [
+                51357,
+                17222,
+                1197,
+                64,
+                517,
+                3991,
+                10761,
+                1806,
+                465,
+                383,
+                17755,
+                13,
+                51450
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " luego",
+                    "start": 70.34,
+                    "end": 70.54,
+                    "probability": 0.9169936180114746
+                },
+                {
+                    "word": " crea",
+                    "start": 70.54,
+                    "end": 70.78,
+                    "probability": 0.9411354660987854
+                },
+                {
+                    "word": " un",
+                    "start": 70.78,
+                    "end": 70.88,
+                    "probability": 0.9134119153022766
+                },
+                {
+                    "word": " file",
+                    "start": 70.88,
+                    "end": 71.1,
+                    "probability": 0.31794819235801697
+                },
+                {
+                    "word": " terminando",
+                    "start": 71.1,
+                    "end": 71.56,
+                    "probability": 0.7244884073734283
+                },
+                {
+                    "word": " en",
+                    "start": 71.56,
+                    "end": 71.64,
+                    "probability": 0.9885653853416443
+                },
+                {
+                    "word": " CPP.",
+                    "start": 71.64,
+                    "end": 72.06,
+                    "probability": 0.7748034000396729
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "seek": 5050,
+            "start": 72.34,
+            "end": 75.76,
+            "text": " Incluye un stream de I.O. de la biblioteca para gestionar la entrada y la salida.",
+            "tokens": [
+                51463,
+                7779,
+                2781,
+                1200,
+                517,
+                4309,
+                368,
+                286,
+                13,
+                46,
+                13,
+                368,
+                635,
+                34344,
+                1370,
+                496,
+                1690,
+                7219,
+                33639,
+                635,
+                37119,
+                288,
+                635,
+                1845,
+                2887,
+                13,
+                51631
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " Incluye",
+                    "start": 72.34,
+                    "end": 72.76,
+                    "probability": 0.6732278068860372
+                },
+                {
+                    "word": " un",
+                    "start": 72.76,
+                    "end": 72.84,
+                    "probability": 0.4525983929634094
+                },
+                {
+                    "word": " stream",
+                    "start": 72.84,
+                    "end": 72.94,
+                    "probability": 0.7909786105155945
+                },
+                {
+                    "word": " de",
+                    "start": 72.94,
+                    "end": 72.94,
+                    "probability": 0.8026178479194641
+                },
+                {
+                    "word": " I",
+                    "start": 72.94,
+                    "end": 72.94,
+                    "probability": 0.8925000429153442
+                },
+                {
+                    "word": ".O.",
+                    "start": 72.94,
+                    "end": 73.16,
+                    "probability": 0.55045136064291
+                },
+                {
+                    "word": " de",
+                    "start": 73.16,
+                    "end": 73.38,
+                    "probability": 0.5485666990280151
+                },
+                {
+                    "word": " la",
+                    "start": 73.38,
+                    "end": 73.68,
+                    "probability": 0.9826236367225647
+                },
+                {
+                    "word": " biblioteca",
+                    "start": 73.68,
+                    "end": 74.48,
+                    "probability": 0.8724971810976664
+                },
+                {
+                    "word": " para",
+                    "start": 74.48,
+                    "end": 74.6,
+                    "probability": 0.15219439566135406
+                },
+                {
+                    "word": " gestionar",
+                    "start": 74.6,
+                    "end": 74.96,
+                    "probability": 0.5895559564232826
+                },
+                {
+                    "word": " la",
+                    "start": 74.96,
+                    "end": 75.1,
+                    "probability": 0.29194268584251404
+                },
+                {
+                    "word": " entrada",
+                    "start": 75.1,
+                    "end": 75.28,
+                    "probability": 0.7947051525115967
+                },
+                {
+                    "word": " y",
+                    "start": 75.28,
+                    "end": 75.48,
+                    "probability": 0.9564763903617859
+                },
+                {
+                    "word": " la",
+                    "start": 75.48,
+                    "end": 75.54,
+                    "probability": 0.7148743271827698
+                },
+                {
+                    "word": " salida.",
+                    "start": 75.54,
+                    "end": 75.76,
+                    "probability": 0.8173820078372955
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "seek": 5050,
+            "start": 75.82,
+            "end": 78.1,
+            "text": " Tu c\u00f3digo comenzar\u00e1 a ejecutarse desde la funci\u00f3n principal.",
+            "tokens": [
+                51640,
+                7836,
+                44195,
+                29564,
+                21534,
+                257,
+                39564,
+                6672,
+                11668,
+                10188,
+                635,
+                43735,
+                9716,
+                13,
+                51746
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " Tu",
+                    "start": 75.82,
+                    "end": 76.04,
+                    "probability": 0.4602412283420563
+                },
+                {
+                    "word": " c\u00f3digo",
+                    "start": 76.04,
+                    "end": 76.34,
+                    "probability": 0.989327073097229
+                },
+                {
+                    "word": " comenzar\u00e1",
+                    "start": 76.34,
+                    "end": 76.62,
+                    "probability": 0.6767532676458359
+                },
+                {
+                    "word": " a",
+                    "start": 76.62,
+                    "end": 76.84,
+                    "probability": 0.9786131381988525
+                },
+                {
+                    "word": " ejecutarse",
+                    "start": 76.84,
+                    "end": 77.28,
+                    "probability": 0.8601613839467367
+                },
+                {
+                    "word": " desde",
+                    "start": 77.28,
+                    "end": 77.48,
+                    "probability": 0.46603894233703613
+                },
+                {
+                    "word": " la",
+                    "start": 77.48,
+                    "end": 77.6,
+                    "probability": 0.9901911020278931
+                },
+                {
+                    "word": " funci\u00f3n",
+                    "start": 77.6,
+                    "end": 77.74,
+                    "probability": 0.9600492715835571
+                },
+                {
+                    "word": " principal.",
+                    "start": 77.74,
+                    "end": 78.1,
+                    "probability": 0.9638534188270569
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "seek": 5050,
+            "start": 78.24,
+            "end": 80.38,
+            "text": " Para imprimir Hello World, simplemente usamos standard,",
+            "tokens": [
+                51746,
+                11107,
+                704,
+                5565,
+                347,
+                2425,
+                3937,
+                11,
+                33190,
+                505,
+                2151,
+                3832,
+                11,
+                51864
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.34605849968208063,
+            "compression_ratio": 1.6159600997506234,
+            "no_speech_prob": 0.04045878350734711,
+            "words": [
+                {
+                    "word": " Para",
+                    "start": 78.24,
+                    "end": 78.42,
+                    "probability": 0.9770583510398865
+                },
+                {
+                    "word": " imprimir",
+                    "start": 78.42,
+                    "end": 78.7,
+                    "probability": 0.8540198802947998
+                },
+                {
+                    "word": " Hello",
+                    "start": 78.7,
+                    "end": 78.86,
+                    "probability": 0.5603089332580566
+                },
+                {
+                    "word": " World,",
+                    "start": 78.86,
+                    "end": 79.28,
+                    "probability": 0.7965214848518372
+                },
+                {
+                    "word": " simplemente",
+                    "start": 79.42,
+                    "end": 79.64,
+                    "probability": 0.882266104221344
+                },
+                {
+                    "word": " usamos",
+                    "start": 79.64,
+                    "end": 80.04,
+                    "probability": 0.8083522915840149
+                },
+                {
+                    "word": " standard,",
+                    "start": 80.04,
+                    "end": 80.38,
+                    "probability": 0.36513540148735046
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "seek": 8050,
+            "start": 80.5,
+            "end": 84.24,
+            "text": " y el output de character followed by the bitwise shift left operator and a string literal.",
+            "tokens": [
+                50365,
+                288,
+                806,
+                5598,
+                368,
+                2517,
+                6263,
+                538,
+                264,
+                857,
+                3711,
+                5513,
+                1411,
+                12973,
+                293,
+                257,
+                6798,
+                20411,
+                13,
+                50557
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " y",
+                    "start": 80.5,
+                    "end": 80.96,
+                    "probability": 0.03286122530698776
+                },
+                {
+                    "word": " el",
+                    "start": 80.96,
+                    "end": 80.96,
+                    "probability": 0.1711113303899765
+                },
+                {
+                    "word": " output",
+                    "start": 80.96,
+                    "end": 80.96,
+                    "probability": 0.06675346195697784
+                },
+                {
+                    "word": " de",
+                    "start": 80.96,
+                    "end": 81.3,
+                    "probability": 0.656164824962616
+                },
+                {
+                    "word": " character",
+                    "start": 81.3,
+                    "end": 81.3,
+                    "probability": 0.16727294027805328
+                },
+                {
+                    "word": " followed",
+                    "start": 81.3,
+                    "end": 81.3,
+                    "probability": 0.6150469183921814
+                },
+                {
+                    "word": " by",
+                    "start": 81.3,
+                    "end": 81.74,
+                    "probability": 0.9806652069091797
+                },
+                {
+                    "word": " the",
+                    "start": 81.74,
+                    "end": 81.9,
+                    "probability": 0.9758266806602478
+                },
+                {
+                    "word": " bitwise",
+                    "start": 81.9,
+                    "end": 82.28,
+                    "probability": 0.9636246562004089
+                },
+                {
+                    "word": " shift",
+                    "start": 82.28,
+                    "end": 82.52,
+                    "probability": 0.8911978006362915
+                },
+                {
+                    "word": " left",
+                    "start": 82.52,
+                    "end": 82.76,
+                    "probability": 0.98130863904953
+                },
+                {
+                    "word": " operator",
+                    "start": 82.76,
+                    "end": 83.14,
+                    "probability": 0.9595509171485901
+                },
+                {
+                    "word": " and",
+                    "start": 83.14,
+                    "end": 83.52,
+                    "probability": 0.9833359718322754
+                },
+                {
+                    "word": " a",
+                    "start": 83.52,
+                    "end": 83.7,
+                    "probability": 0.9976481795310974
+                },
+                {
+                    "word": " string",
+                    "start": 83.7,
+                    "end": 83.94,
+                    "probability": 0.9847673773765564
+                },
+                {
+                    "word": " literal.",
+                    "start": 83.94,
+                    "end": 84.24,
+                    "probability": 0.9963498115539551
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "seek": 8050,
+            "start": 84.42,
+            "end": 88.0,
+            "text": " Podemos eliminar este STD, por supuesto, a\u00f1adiendo un namespace a la parte superior del file.",
+            "tokens": [
+                50567,
+                12646,
+                4485,
+                7892,
+                289,
+                4065,
+                4904,
+                35,
+                11,
+                1515,
+                34177,
+                11,
+                44980,
+                7304,
+                517,
+                5288,
+                17940,
+                257,
+                635,
+                6975,
+                13028,
+                1103,
+                3991,
+                13,
+                50748
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " Podemos",
+                    "start": 84.42,
+                    "end": 84.68,
+                    "probability": 0.4846056161914021
+                },
+                {
+                    "word": " eliminar",
+                    "start": 84.68,
+                    "end": 85.02,
+                    "probability": 0.6705059260129929
+                },
+                {
+                    "word": " este",
+                    "start": 85.02,
+                    "end": 85.18,
+                    "probability": 0.7373210191726685
+                },
+                {
+                    "word": " STD,",
+                    "start": 85.18,
+                    "end": 85.66,
+                    "probability": 0.7472705245018005
+                },
+                {
+                    "word": " por",
+                    "start": 85.74,
+                    "end": 86.02,
+                    "probability": 0.6419305205345154
+                },
+                {
+                    "word": " supuesto,",
+                    "start": 86.02,
+                    "end": 86.02,
+                    "probability": 0.33006301522254944
+                },
+                {
+                    "word": " a\u00f1adiendo",
+                    "start": 86.06,
+                    "end": 86.44,
+                    "probability": 0.8415473997592926
+                },
+                {
+                    "word": " un",
+                    "start": 86.44,
+                    "end": 86.66,
+                    "probability": 0.859248697757721
+                },
+                {
+                    "word": " namespace",
+                    "start": 86.66,
+                    "end": 87.2,
+                    "probability": 0.5463288277387619
+                },
+                {
+                    "word": " a",
+                    "start": 87.2,
+                    "end": 87.34,
+                    "probability": 0.6610134840011597
+                },
+                {
+                    "word": " la",
+                    "start": 87.34,
+                    "end": 87.46,
+                    "probability": 0.9915886521339417
+                },
+                {
+                    "word": " parte",
+                    "start": 87.46,
+                    "end": 87.6,
+                    "probability": 0.5216066241264343
+                },
+                {
+                    "word": " superior",
+                    "start": 87.6,
+                    "end": 87.72,
+                    "probability": 0.7451491951942444
+                },
+                {
+                    "word": " del",
+                    "start": 87.72,
+                    "end": 87.78,
+                    "probability": 0.6749277114868164
+                },
+                {
+                    "word": " file.",
+                    "start": 87.78,
+                    "end": 88.0,
+                    "probability": 0.28713491559028625
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "seek": 8050,
+            "start": 88.2,
+            "end": 92.56,
+            "text": " Ahora, si queremos crear una variable de string, podemos hacerlo al escribirla como un array de personajes.",
+            "tokens": [
+                50754,
+                18840,
+                11,
+                1511,
+                26813,
+                31984,
+                2002,
+                7006,
+                368,
+                6798,
+                11,
+                12234,
+                32039,
+                419,
+                30598,
+                10119,
+                875,
+                2617,
+                517,
+                10225,
+                368,
+                43960,
+                13,
+                50978
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " Ahora,",
+                    "start": 88.2,
+                    "end": 88.44,
+                    "probability": 0.9062300324440002
+                },
+                {
+                    "word": " si",
+                    "start": 88.48,
+                    "end": 88.66,
+                    "probability": 0.9922295212745667
+                },
+                {
+                    "word": " queremos",
+                    "start": 88.66,
+                    "end": 88.78,
+                    "probability": 0.9650124311447144
+                },
+                {
+                    "word": " crear",
+                    "start": 88.78,
+                    "end": 89.16,
+                    "probability": 0.9856225848197937
+                },
+                {
+                    "word": " una",
+                    "start": 89.16,
+                    "end": 89.28,
+                    "probability": 0.9360048174858093
+                },
+                {
+                    "word": " variable",
+                    "start": 89.28,
+                    "end": 89.48,
+                    "probability": 0.892101526260376
+                },
+                {
+                    "word": " de",
+                    "start": 89.48,
+                    "end": 89.96,
+                    "probability": 0.8443073630332947
+                },
+                {
+                    "word": " string,",
+                    "start": 89.96,
+                    "end": 89.96,
+                    "probability": 0.634765088558197
+                },
+                {
+                    "word": " podemos",
+                    "start": 90.02,
+                    "end": 90.34,
+                    "probability": 0.9420615434646606
+                },
+                {
+                    "word": " hacerlo",
+                    "start": 90.34,
+                    "end": 90.6,
+                    "probability": 0.8607650399208069
+                },
+                {
+                    "word": " al",
+                    "start": 90.6,
+                    "end": 90.98,
+                    "probability": 0.25647351145744324
+                },
+                {
+                    "word": " escribirla",
+                    "start": 90.98,
+                    "end": 91.5,
+                    "probability": 0.6766721904277802
+                },
+                {
+                    "word": " como",
+                    "start": 91.5,
+                    "end": 91.76,
+                    "probability": 0.8799856901168823
+                },
+                {
+                    "word": " un",
+                    "start": 91.76,
+                    "end": 91.86,
+                    "probability": 0.8073940873146057
+                },
+                {
+                    "word": " array",
+                    "start": 91.86,
+                    "end": 92.04,
+                    "probability": 0.7575526237487793
+                },
+                {
+                    "word": " de",
+                    "start": 92.04,
+                    "end": 92.26,
+                    "probability": 0.9947865009307861
+                },
+                {
+                    "word": " personajes.",
+                    "start": 92.26,
+                    "end": 92.56,
+                    "probability": 0.6110413074493408
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "seek": 8050,
+            "start": 92.88,
+            "end": 96.96,
+            "text": " Sin embargo, si incluimos string de la biblioteca, podemos usar el type string.",
+            "tokens": [
+                50993,
+                11187,
+                23955,
+                11,
+                1511,
+                25520,
+                8372,
+                6798,
+                368,
+                635,
+                34344,
+                1370,
+                496,
+                11,
+                12234,
+                14745,
+                806,
+                2010,
+                6798,
+                13,
+                51187
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " Sin",
+                    "start": 92.88,
+                    "end": 93.16,
+                    "probability": 0.7449945211410522
+                },
+                {
+                    "word": " embargo,",
+                    "start": 93.16,
+                    "end": 93.22,
+                    "probability": 0.9884840846061707
+                },
+                {
+                    "word": " si",
+                    "start": 93.42,
+                    "end": 93.66,
+                    "probability": 0.99664306640625
+                },
+                {
+                    "word": " incluimos",
+                    "start": 93.66,
+                    "end": 94.0,
+                    "probability": 0.9758485853672028
+                },
+                {
+                    "word": " string",
+                    "start": 94.0,
+                    "end": 94.26,
+                    "probability": 0.8531972169876099
+                },
+                {
+                    "word": " de",
+                    "start": 94.26,
+                    "end": 94.54,
+                    "probability": 0.38796237111091614
+                },
+                {
+                    "word": " la",
+                    "start": 94.54,
+                    "end": 94.68,
+                    "probability": 0.9939059615135193
+                },
+                {
+                    "word": " biblioteca,",
+                    "start": 94.68,
+                    "end": 95.52,
+                    "probability": 0.8512124816576639
+                },
+                {
+                    "word": " podemos",
+                    "start": 95.52,
+                    "end": 95.74,
+                    "probability": 0.9258951544761658
+                },
+                {
+                    "word": " usar",
+                    "start": 95.74,
+                    "end": 95.98,
+                    "probability": 0.8283634185791016
+                },
+                {
+                    "word": " el",
+                    "start": 95.98,
+                    "end": 96.18,
+                    "probability": 0.8010367155075073
+                },
+                {
+                    "word": " type",
+                    "start": 96.18,
+                    "end": 96.5,
+                    "probability": 0.5010781288146973
+                },
+                {
+                    "word": " string.",
+                    "start": 96.5,
+                    "end": 96.96,
+                    "probability": 0.5978541970252991
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "seek": 8050,
+            "start": 97.06,
+            "end": 102.22,
+            "text": " El cambio real, por supuesto, es el hecho de que C++ apoya programaci\u00f3n orientada a objetos con clases.",
+            "tokens": [
+                51205,
+                2699,
+                28731,
+                957,
+                11,
+                1515,
+                34177,
+                11,
+                785,
+                806,
+                13064,
+                368,
+                631,
+                383,
+                25472,
+                1882,
+                24642,
+                1461,
+                3482,
+                8579,
+                1538,
+                257,
+                49605,
+                416,
+                596,
+                1957,
+                13,
+                51458
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " El",
+                    "start": 97.06,
+                    "end": 97.54,
+                    "probability": 0.5978743433952332
+                },
+                {
+                    "word": " cambio",
+                    "start": 97.54,
+                    "end": 97.74,
+                    "probability": 0.5567313432693481
+                },
+                {
+                    "word": " real,",
+                    "start": 97.74,
+                    "end": 97.74,
+                    "probability": 0.5155590772628784
+                },
+                {
+                    "word": " por",
+                    "start": 98.0,
+                    "end": 98.42,
+                    "probability": 0.9578657746315002
+                },
+                {
+                    "word": " supuesto,",
+                    "start": 98.42,
+                    "end": 98.42,
+                    "probability": 0.9574191570281982
+                },
+                {
+                    "word": " es",
+                    "start": 98.54,
+                    "end": 98.72,
+                    "probability": 0.9890613555908203
+                },
+                {
+                    "word": " el",
+                    "start": 98.72,
+                    "end": 98.78,
+                    "probability": 0.8466905951499939
+                },
+                {
+                    "word": " hecho",
+                    "start": 98.78,
+                    "end": 98.96,
+                    "probability": 0.979380190372467
+                },
+                {
+                    "word": " de",
+                    "start": 98.96,
+                    "end": 99.16,
+                    "probability": 0.9660440683364868
+                },
+                {
+                    "word": " que",
+                    "start": 99.16,
+                    "end": 99.2,
+                    "probability": 0.9964151382446289
+                },
+                {
+                    "word": " C++",
+                    "start": 99.2,
+                    "end": 99.66,
+                    "probability": 0.9901906251907349
+                },
+                {
+                    "word": " apoya",
+                    "start": 99.66,
+                    "end": 100.3,
+                    "probability": 0.39421531558036804
+                },
+                {
+                    "word": " programaci\u00f3n",
+                    "start": 100.3,
+                    "end": 100.66,
+                    "probability": 0.8843758702278137
+                },
+                {
+                    "word": " orientada",
+                    "start": 100.66,
+                    "end": 101.18,
+                    "probability": 0.8892495036125183
+                },
+                {
+                    "word": " a",
+                    "start": 101.18,
+                    "end": 101.28,
+                    "probability": 0.743374764919281
+                },
+                {
+                    "word": " objetos",
+                    "start": 101.28,
+                    "end": 101.38,
+                    "probability": 0.9021738171577454
+                },
+                {
+                    "word": " con",
+                    "start": 101.38,
+                    "end": 101.38,
+                    "probability": 0.9578588604927063
+                },
+                {
+                    "word": " clases.",
+                    "start": 101.38,
+                    "end": 102.22,
+                    "probability": 0.9766816198825836
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "seek": 8050,
+            "start": 102.42,
+            "end": 104.62,
+            "text": " Una clase es solo un blueprint para un objeto.",
+            "tokens": [
+                51471,
+                15491,
+                44578,
+                785,
+                6944,
+                517,
+                35868,
+                1690,
+                517,
+                40438,
+                13,
+                51575
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " Una",
+                    "start": 102.42,
+                    "end": 102.68,
+                    "probability": 0.9403297901153564
+                },
+                {
+                    "word": " clase",
+                    "start": 102.68,
+                    "end": 102.98,
+                    "probability": 0.9979614019393921
+                },
+                {
+                    "word": " es",
+                    "start": 102.98,
+                    "end": 103.26,
+                    "probability": 0.9841369390487671
+                },
+                {
+                    "word": " solo",
+                    "start": 103.26,
+                    "end": 103.46,
+                    "probability": 0.43710336089134216
+                },
+                {
+                    "word": " un",
+                    "start": 103.46,
+                    "end": 103.58,
+                    "probability": 0.7287518978118896
+                },
+                {
+                    "word": " blueprint",
+                    "start": 103.58,
+                    "end": 103.9,
+                    "probability": 0.7364736795425415
+                },
+                {
+                    "word": " para",
+                    "start": 103.9,
+                    "end": 104.18,
+                    "probability": 0.8719562292098999
+                },
+                {
+                    "word": " un",
+                    "start": 104.18,
+                    "end": 104.34,
+                    "probability": 0.9940681457519531
+                },
+                {
+                    "word": " objeto.",
+                    "start": 104.34,
+                    "end": 104.62,
+                    "probability": 0.9990906715393066
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "seek": 8050,
+            "start": 104.88,
+            "end": 108.74,
+            "text": " Dentro de una clase, puedes definir atributos y m\u00e9todos que ser\u00e1n privados por default,",
+            "tokens": [
+                51589,
+                41622,
+                340,
+                368,
+                2002,
+                44578,
+                11,
+                19010,
+                1561,
+                347,
+                412,
+                2024,
+                34640,
+                288,
+                20275,
+                378,
+                329,
+                631,
+                816,
+                7200,
+                2915,
+                4181,
+                1515,
+                7576,
+                11,
+                51784
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " Dentro",
+                    "start": 104.88,
+                    "end": 105.16,
+                    "probability": 0.9915672838687897
+                },
+                {
+                    "word": " de",
+                    "start": 105.16,
+                    "end": 105.22,
+                    "probability": 0.9997240900993347
+                },
+                {
+                    "word": " una",
+                    "start": 105.22,
+                    "end": 105.38,
+                    "probability": 0.9891396164894104
+                },
+                {
+                    "word": " clase,",
+                    "start": 105.38,
+                    "end": 105.62,
+                    "probability": 0.9996305704116821
+                },
+                {
+                    "word": " puedes",
+                    "start": 105.74,
+                    "end": 105.94,
+                    "probability": 0.6233983039855957
+                },
+                {
+                    "word": " definir",
+                    "start": 105.94,
+                    "end": 106.26,
+                    "probability": 0.9986371695995331
+                },
+                {
+                    "word": " atributos",
+                    "start": 106.26,
+                    "end": 106.8,
+                    "probability": 0.9804475704828898
+                },
+                {
+                    "word": " y",
+                    "start": 106.8,
+                    "end": 106.96,
+                    "probability": 0.9987925291061401
+                },
+                {
+                    "word": " m\u00e9todos",
+                    "start": 106.96,
+                    "end": 107.46,
+                    "probability": 0.9634923537572225
+                },
+                {
+                    "word": " que",
+                    "start": 107.46,
+                    "end": 107.62,
+                    "probability": 0.9956934452056885
+                },
+                {
+                    "word": " ser\u00e1n",
+                    "start": 107.62,
+                    "end": 107.88,
+                    "probability": 0.9097974598407745
+                },
+                {
+                    "word": " privados",
+                    "start": 107.88,
+                    "end": 108.3,
+                    "probability": 0.9839719533920288
+                },
+                {
+                    "word": " por",
+                    "start": 108.3,
+                    "end": 108.46,
+                    "probability": 0.5350446105003357
+                },
+                {
+                    "word": " default,",
+                    "start": 108.46,
+                    "end": 108.74,
+                    "probability": 0.6954059600830078
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "seek": 8050,
+            "start": 109.0,
+            "end": 109.82,
+            "text": " o hacerlos p\u00fablicos.",
+            "tokens": [
+                51784,
+                277,
+                6720,
+                9389,
+                15392,
+                329,
+                13,
+                51839
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.322584834243312,
+            "compression_ratio": 1.650259067357513,
+            "no_speech_prob": 0.06485246121883392,
+            "words": [
+                {
+                    "word": " o",
+                    "start": 109.0,
+                    "end": 109.12,
+                    "probability": 0.9944896697998047
+                },
+                {
+                    "word": " hacerlos",
+                    "start": 109.12,
+                    "end": 109.44,
+                    "probability": 0.856427937746048
+                },
+                {
+                    "word": " p\u00fablicos.",
+                    "start": 109.44,
+                    "end": 109.82,
+                    "probability": 0.9591487050056458
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "seek": 11050,
+            "start": 111.62,
+            "end": 116.38,
+            "text": " Tambi\u00e9n es posible definir m\u00e9todos fuera de la definici\u00f3n de la clase usando un doble colon.",
+            "tokens": [
+                50365,
+                25682,
+                785,
+                26644,
+                1561,
+                347,
+                20275,
+                378,
+                329,
+                24818,
+                368,
+                635,
+                1561,
+                15534,
+                368,
+                635,
+                44578,
+                29798,
+                517,
+                360,
+                638,
+                8255,
+                13,
+                50670
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " Tambi\u00e9n",
+                    "start": 111.62,
+                    "end": 112.06,
+                    "probability": 0.010796361602842808
+                },
+                {
+                    "word": " es",
+                    "start": 112.06,
+                    "end": 112.26,
+                    "probability": 0.472435861825943
+                },
+                {
+                    "word": " posible",
+                    "start": 112.26,
+                    "end": 112.62,
+                    "probability": 0.9913191199302673
+                },
+                {
+                    "word": " definir",
+                    "start": 112.62,
+                    "end": 113.4,
+                    "probability": 0.992394745349884
+                },
+                {
+                    "word": " m\u00e9todos",
+                    "start": 113.4,
+                    "end": 113.86,
+                    "probability": 0.9594069719314575
+                },
+                {
+                    "word": " fuera",
+                    "start": 113.86,
+                    "end": 114.12,
+                    "probability": 0.9030835032463074
+                },
+                {
+                    "word": " de",
+                    "start": 114.12,
+                    "end": 114.3,
+                    "probability": 0.9814863801002502
+                },
+                {
+                    "word": " la",
+                    "start": 114.3,
+                    "end": 114.44,
+                    "probability": 0.9797831177711487
+                },
+                {
+                    "word": " definici\u00f3n",
+                    "start": 114.44,
+                    "end": 115.18,
+                    "probability": 0.9966724216938019
+                },
+                {
+                    "word": " de",
+                    "start": 115.18,
+                    "end": 115.24,
+                    "probability": 0.7386443018913269
+                },
+                {
+                    "word": " la",
+                    "start": 115.24,
+                    "end": 115.24,
+                    "probability": 0.33551284670829773
+                },
+                {
+                    "word": " clase",
+                    "start": 115.24,
+                    "end": 115.24,
+                    "probability": 0.9950430393218994
+                },
+                {
+                    "word": " usando",
+                    "start": 115.24,
+                    "end": 115.48,
+                    "probability": 0.8771601319313049
+                },
+                {
+                    "word": " un",
+                    "start": 115.48,
+                    "end": 115.78,
+                    "probability": 0.6389070749282837
+                },
+                {
+                    "word": " doble",
+                    "start": 115.78,
+                    "end": 116.08,
+                    "probability": 0.7358694672584534
+                },
+                {
+                    "word": " colon.",
+                    "start": 116.08,
+                    "end": 116.38,
+                    "probability": 0.7655520439147949
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "seek": 11050,
+            "start": 116.56,
+            "end": 119.32,
+            "text": " Los m\u00e9todos tambi\u00e9n pueden ser definidos m\u00faltiples veces con diferentes par\u00e1metros,",
+            "tokens": [
+                50670,
+                7632,
+                20275,
+                378,
+                329,
+                6407,
+                14714,
+                816,
+                1561,
+                7895,
+                275,
+                43447,
+                72,
+                2622,
+                17054,
+                416,
+                17686,
+                971,
+                842,
+                29570,
+                11,
+                50819
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " Los",
+                    "start": 116.56,
+                    "end": 116.72,
+                    "probability": 0.7303858399391174
+                },
+                {
+                    "word": " m\u00e9todos",
+                    "start": 116.72,
+                    "end": 116.96,
+                    "probability": 0.9991402427355448
+                },
+                {
+                    "word": " tambi\u00e9n",
+                    "start": 116.96,
+                    "end": 117.1,
+                    "probability": 0.6947337985038757
+                },
+                {
+                    "word": " pueden",
+                    "start": 117.1,
+                    "end": 117.4,
+                    "probability": 0.9446693658828735
+                },
+                {
+                    "word": " ser",
+                    "start": 117.4,
+                    "end": 117.52,
+                    "probability": 0.9630250930786133
+                },
+                {
+                    "word": " definidos",
+                    "start": 117.52,
+                    "end": 117.74,
+                    "probability": 0.9901825785636902
+                },
+                {
+                    "word": " m\u00faltiples",
+                    "start": 117.74,
+                    "end": 118.1,
+                    "probability": 0.9158013015985489
+                },
+                {
+                    "word": " veces",
+                    "start": 118.1,
+                    "end": 118.42,
+                    "probability": 0.9955138564109802
+                },
+                {
+                    "word": " con",
+                    "start": 118.42,
+                    "end": 118.6,
+                    "probability": 0.9980751276016235
+                },
+                {
+                    "word": " diferentes",
+                    "start": 118.6,
+                    "end": 118.78,
+                    "probability": 0.9819489121437073
+                },
+                {
+                    "word": " par\u00e1metros,",
+                    "start": 118.78,
+                    "end": 119.32,
+                    "probability": 0.9909995992978414
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "seek": 11050,
+            "start": 119.5,
+            "end": 122.52,
+            "text": " lo que se conoce como overloading y es una forma de polimorfismo.",
+            "tokens": [
+                50819,
+                450,
+                631,
+                369,
+                33029,
+                384,
+                2617,
+                28777,
+                278,
+                288,
+                785,
+                2002,
+                8366,
+                368,
+                1180,
+                332,
+                28030,
+                6882,
+                13,
+                50974
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " lo",
+                    "start": 119.5,
+                    "end": 119.7,
+                    "probability": 0.8210400342941284
+                },
+                {
+                    "word": " que",
+                    "start": 119.7,
+                    "end": 119.74,
+                    "probability": 0.9167504906654358
+                },
+                {
+                    "word": " se",
+                    "start": 119.74,
+                    "end": 119.84,
+                    "probability": 0.4606744647026062
+                },
+                {
+                    "word": " conoce",
+                    "start": 119.84,
+                    "end": 120.1,
+                    "probability": 0.8656002879142761
+                },
+                {
+                    "word": " como",
+                    "start": 120.1,
+                    "end": 120.32,
+                    "probability": 0.989194393157959
+                },
+                {
+                    "word": " overloading",
+                    "start": 120.32,
+                    "end": 120.98,
+                    "probability": 0.78119096159935
+                },
+                {
+                    "word": " y",
+                    "start": 120.98,
+                    "end": 121.1,
+                    "probability": 0.9359896779060364
+                },
+                {
+                    "word": " es",
+                    "start": 121.1,
+                    "end": 121.28,
+                    "probability": 0.9931948184967041
+                },
+                {
+                    "word": " una",
+                    "start": 121.28,
+                    "end": 121.38,
+                    "probability": 0.9937567710876465
+                },
+                {
+                    "word": " forma",
+                    "start": 121.38,
+                    "end": 121.66,
+                    "probability": 0.9981878399848938
+                },
+                {
+                    "word": " de",
+                    "start": 121.66,
+                    "end": 121.82,
+                    "probability": 0.9992660880088806
+                },
+                {
+                    "word": " polimorfismo.",
+                    "start": 121.82,
+                    "end": 122.52,
+                    "probability": 0.9839481115341187
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "seek": 11050,
+            "start": 122.64,
+            "end": 128.12,
+            "text": " Adem\u00e1s, podemos definir constructores y destructores para ejecutar c\u00f3digo cuando un objeto es creado o destruido.",
+            "tokens": [
+                50974,
+                34621,
+                11,
+                12234,
+                1561,
+                347,
+                7690,
+                2706,
+                288,
+                2677,
+                1757,
+                2706,
+                1690,
+                39564,
+                6672,
+                289,
+                44195,
+                7767,
+                517,
+                40438,
+                785,
+                1197,
+                1573,
+                277,
+                34235,
+                2925,
+                13,
+                51253
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " Adem\u00e1s,",
+                    "start": 122.64,
+                    "end": 122.86,
+                    "probability": 0.6096101403236389
+                },
+                {
+                    "word": " podemos",
+                    "start": 123.12,
+                    "end": 123.5,
+                    "probability": 0.9869310259819031
+                },
+                {
+                    "word": " definir",
+                    "start": 123.5,
+                    "end": 123.82,
+                    "probability": 0.9993623793125153
+                },
+                {
+                    "word": " constructores",
+                    "start": 123.82,
+                    "end": 124.5,
+                    "probability": 0.9609831273555756
+                },
+                {
+                    "word": " y",
+                    "start": 124.5,
+                    "end": 124.66,
+                    "probability": 0.9987383484840393
+                },
+                {
+                    "word": " destructores",
+                    "start": 124.66,
+                    "end": 125.44,
+                    "probability": 0.9988930622736613
+                },
+                {
+                    "word": " para",
+                    "start": 125.44,
+                    "end": 125.62,
+                    "probability": 0.994520902633667
+                },
+                {
+                    "word": " ejecutar",
+                    "start": 125.62,
+                    "end": 125.86,
+                    "probability": 0.8827812274297079
+                },
+                {
+                    "word": " c\u00f3digo",
+                    "start": 125.86,
+                    "end": 126.04,
+                    "probability": 0.6069849729537964
+                },
+                {
+                    "word": " cuando",
+                    "start": 126.04,
+                    "end": 126.38,
+                    "probability": 0.998399555683136
+                },
+                {
+                    "word": " un",
+                    "start": 126.38,
+                    "end": 126.46,
+                    "probability": 0.9971427321434021
+                },
+                {
+                    "word": " objeto",
+                    "start": 126.46,
+                    "end": 126.8,
+                    "probability": 0.997510552406311
+                },
+                {
+                    "word": " es",
+                    "start": 126.8,
+                    "end": 127.0,
+                    "probability": 0.8396507501602173
+                },
+                {
+                    "word": " creado",
+                    "start": 127.0,
+                    "end": 127.46,
+                    "probability": 0.9981067776679993
+                },
+                {
+                    "word": " o",
+                    "start": 127.46,
+                    "end": 127.66,
+                    "probability": 0.9945448637008667
+                },
+                {
+                    "word": " destruido.",
+                    "start": 127.66,
+                    "end": 128.12,
+                    "probability": 0.9964812397956848
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "seek": 11050,
+            "start": 128.24,
+            "end": 132.84,
+            "text": " Las clases tambi\u00e9n apoyan la heredidad, permitiendo a los desarrolladores compartir la l\u00f3gica m\u00e1s eficientemente a trav\u00e9s de un programa.",
+            "tokens": [
+                51253,
+                10663,
+                596,
+                1957,
+                6407,
+                41535,
+                282,
+                635,
+                720,
+                292,
+                4580,
+                11,
+                13423,
+                7304,
+                257,
+                1750,
+                32501,
+                11856,
+                40667,
+                635,
+                48475,
+                2262,
+                3573,
+                308,
+                26863,
+                4082,
+                257,
+                24463,
+                368,
+                517,
+                21846,
+                13,
+                51497
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " Las",
+                    "start": 128.24,
+                    "end": 128.34,
+                    "probability": 0.9030530452728271
+                },
+                {
+                    "word": " clases",
+                    "start": 128.34,
+                    "end": 128.6,
+                    "probability": 0.9982079863548279
+                },
+                {
+                    "word": " tambi\u00e9n",
+                    "start": 128.6,
+                    "end": 128.78,
+                    "probability": 0.9935762286186218
+                },
+                {
+                    "word": " apoyan",
+                    "start": 128.78,
+                    "end": 129.28,
+                    "probability": 0.751541405916214
+                },
+                {
+                    "word": " la",
+                    "start": 129.28,
+                    "end": 129.38,
+                    "probability": 0.7453231811523438
+                },
+                {
+                    "word": " heredidad,",
+                    "start": 129.38,
+                    "end": 129.78,
+                    "probability": 0.5290150046348572
+                },
+                {
+                    "word": " permitiendo",
+                    "start": 129.92,
+                    "end": 130.16,
+                    "probability": 0.9292438626289368
+                },
+                {
+                    "word": " a",
+                    "start": 130.16,
+                    "end": 130.3,
+                    "probability": 0.939264714717865
+                },
+                {
+                    "word": " los",
+                    "start": 130.3,
+                    "end": 130.36,
+                    "probability": 0.9965863227844238
+                },
+                {
+                    "word": " desarrolladores",
+                    "start": 130.36,
+                    "end": 130.68,
+                    "probability": 0.9929818212985992
+                },
+                {
+                    "word": " compartir",
+                    "start": 130.68,
+                    "end": 131.22,
+                    "probability": 0.9196174740791321
+                },
+                {
+                    "word": " la",
+                    "start": 131.22,
+                    "end": 131.84,
+                    "probability": 0.2967032492160797
+                },
+                {
+                    "word": " l\u00f3gica",
+                    "start": 131.84,
+                    "end": 132.26,
+                    "probability": 0.9984047114849091
+                },
+                {
+                    "word": " m\u00e1s",
+                    "start": 132.26,
+                    "end": 132.32,
+                    "probability": 0.980658769607544
+                },
+                {
+                    "word": " eficientemente",
+                    "start": 132.32,
+                    "end": 132.32,
+                    "probability": 0.8105424543221792
+                },
+                {
+                    "word": " a",
+                    "start": 132.32,
+                    "end": 132.32,
+                    "probability": 0.5870712399482727
+                },
+                {
+                    "word": " trav\u00e9s",
+                    "start": 132.32,
+                    "end": 132.42,
+                    "probability": 0.823075532913208
+                },
+                {
+                    "word": " de",
+                    "start": 132.42,
+                    "end": 132.54,
+                    "probability": 0.9953553676605225
+                },
+                {
+                    "word": " un",
+                    "start": 132.54,
+                    "end": 132.62,
+                    "probability": 0.9980621933937073
+                },
+                {
+                    "word": " programa.",
+                    "start": 132.62,
+                    "end": 132.84,
+                    "probability": 0.9910969734191895
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "seek": 11050,
+            "start": 133.08,
+            "end": 136.62,
+            "text": " Para instanciar un objeto, escoge el nombre de la clase, seguido por el nombre de tu objeto,",
+            "tokens": [
+                51497,
+                11107,
+                1058,
+                38840,
+                289,
+                517,
+                40438,
+                11,
+                785,
+                1291,
+                432,
+                806,
+                13000,
+                368,
+                635,
+                44578,
+                11,
+                8878,
+                2925,
+                1515,
+                806,
+                13000,
+                368,
+                2604,
+                40438,
+                11,
+                51685
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " Para",
+                    "start": 133.08,
+                    "end": 133.26,
+                    "probability": 0.9970619082450867
+                },
+                {
+                    "word": " instanciar",
+                    "start": 133.26,
+                    "end": 133.74,
+                    "probability": 0.8791284759839376
+                },
+                {
+                    "word": " un",
+                    "start": 133.74,
+                    "end": 133.86,
+                    "probability": 0.9995444416999817
+                },
+                {
+                    "word": " objeto,",
+                    "start": 133.86,
+                    "end": 134.12,
+                    "probability": 0.9992833733558655
+                },
+                {
+                    "word": " escoge",
+                    "start": 134.38,
+                    "end": 134.58,
+                    "probability": 0.43155741443236667
+                },
+                {
+                    "word": " el",
+                    "start": 134.58,
+                    "end": 134.68,
+                    "probability": 0.9534286856651306
+                },
+                {
+                    "word": " nombre",
+                    "start": 134.68,
+                    "end": 134.76,
+                    "probability": 0.9683892726898193
+                },
+                {
+                    "word": " de",
+                    "start": 134.76,
+                    "end": 134.76,
+                    "probability": 0.9821979403495789
+                },
+                {
+                    "word": " la",
+                    "start": 134.76,
+                    "end": 134.76,
+                    "probability": 0.8957993984222412
+                },
+                {
+                    "word": " clase,",
+                    "start": 134.76,
+                    "end": 134.88,
+                    "probability": 0.9989013671875
+                },
+                {
+                    "word": " seguido",
+                    "start": 135.2,
+                    "end": 135.64,
+                    "probability": 0.7888098061084747
+                },
+                {
+                    "word": " por",
+                    "start": 135.64,
+                    "end": 135.74,
+                    "probability": 0.9291415810585022
+                },
+                {
+                    "word": " el",
+                    "start": 135.74,
+                    "end": 135.82,
+                    "probability": 0.9859955906867981
+                },
+                {
+                    "word": " nombre",
+                    "start": 135.82,
+                    "end": 136.04,
+                    "probability": 0.9929270148277283
+                },
+                {
+                    "word": " de",
+                    "start": 136.04,
+                    "end": 136.18,
+                    "probability": 0.9906739592552185
+                },
+                {
+                    "word": " tu",
+                    "start": 136.18,
+                    "end": 136.28,
+                    "probability": 0.7913551926612854
+                },
+                {
+                    "word": " objeto,",
+                    "start": 136.28,
+                    "end": 136.62,
+                    "probability": 0.9995879530906677
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "seek": 11050,
+            "start": 136.88,
+            "end": 138.8,
+            "text": " y opcionalmente cualquier par\u00e1metro para el constructor.",
+            "tokens": [
+                51685,
+                288,
+                999,
+                42395,
+                4082,
+                21004,
+                971,
+                842,
+                45400,
+                1690,
+                806,
+                47479,
+                13,
+                51797
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " y",
+                    "start": 136.88,
+                    "end": 136.98,
+                    "probability": 0.9993450045585632
+                },
+                {
+                    "word": " opcionalmente",
+                    "start": 136.98,
+                    "end": 137.56,
+                    "probability": 0.9198895891507467
+                },
+                {
+                    "word": " cualquier",
+                    "start": 137.56,
+                    "end": 137.68,
+                    "probability": 0.7547136545181274
+                },
+                {
+                    "word": " par\u00e1metro",
+                    "start": 137.68,
+                    "end": 138.12,
+                    "probability": 0.9843166470527649
+                },
+                {
+                    "word": " para",
+                    "start": 138.12,
+                    "end": 138.38,
+                    "probability": 0.9986119270324707
+                },
+                {
+                    "word": " el",
+                    "start": 138.38,
+                    "end": 138.48,
+                    "probability": 0.9949546456336975
+                },
+                {
+                    "word": " constructor.",
+                    "start": 138.48,
+                    "end": 138.8,
+                    "probability": 0.9701695442199707
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "seek": 11050,
+            "start": 139.08,
+            "end": 140.12,
+            "text": " Cuando se trata de memoria,",
+            "tokens": [
+                51797,
+                21907,
+                369,
+                31920,
+                368,
+                1334,
+                8172,
+                11,
+                51857
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3157443254353614,
+            "compression_ratio": 1.805263157894737,
+            "no_speech_prob": 0.028682993724942207,
+            "words": [
+                {
+                    "word": " Cuando",
+                    "start": 139.08,
+                    "end": 139.3,
+                    "probability": 0.9548884630203247
+                },
+                {
+                    "word": " se",
+                    "start": 139.3,
+                    "end": 139.42,
+                    "probability": 0.9421101212501526
+                },
+                {
+                    "word": " trata",
+                    "start": 139.42,
+                    "end": 139.6,
+                    "probability": 0.853969156742096
+                },
+                {
+                    "word": " de",
+                    "start": 139.6,
+                    "end": 139.74,
+                    "probability": 0.9993938207626343
+                },
+                {
+                    "word": " memoria,",
+                    "start": 139.74,
+                    "end": 140.12,
+                    "probability": 0.9465466737747192
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "seek": 14012,
+            "start": 140.12,
+            "end": 143.22,
+            "text": " podr\u00edamos manejar todo manualmente con par\u00e1metros y referencias.",
+            "tokens": [
+                50365,
+                15305,
+                16275,
+                12743,
+                10150,
+                5149,
+                9688,
+                4082,
+                416,
+                971,
+                842,
+                29570,
+                288,
+                2864,
+                37246,
+                13,
+                50527
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " podr\u00edamos",
+                    "start": 140.12,
+                    "end": 140.64,
+                    "probability": 0.5246754251420498
+                },
+                {
+                    "word": " manejar",
+                    "start": 140.64,
+                    "end": 141.0,
+                    "probability": 0.7609229683876038
+                },
+                {
+                    "word": " todo",
+                    "start": 141.0,
+                    "end": 141.12,
+                    "probability": 0.8745421171188354
+                },
+                {
+                    "word": " manualmente",
+                    "start": 141.12,
+                    "end": 141.92,
+                    "probability": 0.9240796864032745
+                },
+                {
+                    "word": " con",
+                    "start": 141.92,
+                    "end": 142.1,
+                    "probability": 0.9376131296157837
+                },
+                {
+                    "word": " par\u00e1metros",
+                    "start": 142.1,
+                    "end": 142.54,
+                    "probability": 0.4581221623035769
+                },
+                {
+                    "word": " y",
+                    "start": 142.54,
+                    "end": 142.72,
+                    "probability": 0.9781489968299866
+                },
+                {
+                    "word": " referencias.",
+                    "start": 142.72,
+                    "end": 143.22,
+                    "probability": 0.9606635868549347
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "seek": 14012,
+            "start": 143.44,
+            "end": 147.86,
+            "text": " Sin embargo, herramientas como UniquePointer pueden hacer el trabajo de una manera m\u00e1s f\u00e1cil y segura,",
+            "tokens": [
+                50527,
+                11187,
+                23955,
+                11,
+                38271,
+                296,
+                2617,
+                1156,
+                1925,
+                47,
+                78,
+                5106,
+                14714,
+                6720,
+                806,
+                18099,
+                368,
+                2002,
+                13913,
+                3573,
+                17474,
+                288,
+                3896,
+                2991,
+                11,
+                50749
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " Sin",
+                    "start": 143.44,
+                    "end": 143.56,
+                    "probability": 0.8478971719741821
+                },
+                {
+                    "word": " embargo,",
+                    "start": 143.56,
+                    "end": 143.78,
+                    "probability": 0.9908000826835632
+                },
+                {
+                    "word": " herramientas",
+                    "start": 143.94,
+                    "end": 144.32,
+                    "probability": 0.9626893401145935
+                },
+                {
+                    "word": " como",
+                    "start": 144.32,
+                    "end": 144.44,
+                    "probability": 0.99436354637146
+                },
+                {
+                    "word": " UniquePointer",
+                    "start": 144.44,
+                    "end": 145.1,
+                    "probability": 0.845042884349823
+                },
+                {
+                    "word": " pueden",
+                    "start": 145.1,
+                    "end": 145.4,
+                    "probability": 0.8484637141227722
+                },
+                {
+                    "word": " hacer",
+                    "start": 145.4,
+                    "end": 145.54,
+                    "probability": 0.4643566906452179
+                },
+                {
+                    "word": " el",
+                    "start": 145.54,
+                    "end": 145.62,
+                    "probability": 0.9071395397186279
+                },
+                {
+                    "word": " trabajo",
+                    "start": 145.62,
+                    "end": 145.78,
+                    "probability": 0.98835688829422
+                },
+                {
+                    "word": " de",
+                    "start": 145.78,
+                    "end": 146.02,
+                    "probability": 0.8283810615539551
+                },
+                {
+                    "word": " una",
+                    "start": 146.02,
+                    "end": 146.24,
+                    "probability": 0.7024790644645691
+                },
+                {
+                    "word": " manera",
+                    "start": 146.24,
+                    "end": 146.46,
+                    "probability": 0.8219602108001709
+                },
+                {
+                    "word": " m\u00e1s",
+                    "start": 146.46,
+                    "end": 146.72,
+                    "probability": 0.8399488925933838
+                },
+                {
+                    "word": " f\u00e1cil",
+                    "start": 146.72,
+                    "end": 147.02,
+                    "probability": 0.8909360766410828
+                },
+                {
+                    "word": " y",
+                    "start": 147.02,
+                    "end": 147.3,
+                    "probability": 0.9749618768692017
+                },
+                {
+                    "word": " segura,",
+                    "start": 147.3,
+                    "end": 147.86,
+                    "probability": 0.8180017173290253
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "seek": 14012,
+            "start": 147.88,
+            "end": 150.74,
+            "text": " asegur\u00e1ndonos de que solo un objeto puede ser adquirido a memoria.",
+            "tokens": [
+                50749,
+                38174,
+                374,
+                18606,
+                50059,
+                368,
+                631,
+                6944,
+                517,
+                40438,
+                8919,
+                816,
+                614,
+                45568,
+                2925,
+                257,
+                1334,
+                8172,
+                13,
+                50899
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " asegur\u00e1ndonos",
+                    "start": 147.88,
+                    "end": 148.62,
+                    "probability": 0.729056105017662
+                },
+                {
+                    "word": " de",
+                    "start": 148.62,
+                    "end": 148.66,
+                    "probability": 0.8552069067955017
+                },
+                {
+                    "word": " que",
+                    "start": 148.66,
+                    "end": 148.74,
+                    "probability": 0.9947801828384399
+                },
+                {
+                    "word": " solo",
+                    "start": 148.74,
+                    "end": 148.86,
+                    "probability": 0.7442638874053955
+                },
+                {
+                    "word": " un",
+                    "start": 148.86,
+                    "end": 149.06,
+                    "probability": 0.9707514643669128
+                },
+                {
+                    "word": " objeto",
+                    "start": 149.06,
+                    "end": 149.42,
+                    "probability": 0.9938408136367798
+                },
+                {
+                    "word": " puede",
+                    "start": 149.42,
+                    "end": 149.68,
+                    "probability": 0.5377346873283386
+                },
+                {
+                    "word": " ser",
+                    "start": 149.68,
+                    "end": 149.84,
+                    "probability": 0.9327366352081299
+                },
+                {
+                    "word": " adquirido",
+                    "start": 149.84,
+                    "end": 150.34,
+                    "probability": 0.487229843934377
+                },
+                {
+                    "word": " a",
+                    "start": 150.34,
+                    "end": 150.42,
+                    "probability": 0.6434617042541504
+                },
+                {
+                    "word": " memoria.",
+                    "start": 150.42,
+                    "end": 150.74,
+                    "probability": 0.8442589938640594
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "seek": 14012,
+            "start": 150.86,
+            "end": 155.32,
+            "text": " Ahora, para ejecutar tu c\u00f3digo, abre el terminal y utiliza una herramienta como Clang++ para compilarlo.",
+            "tokens": [
+                50899,
+                18840,
+                11,
+                1690,
+                39564,
+                6672,
+                289,
+                2604,
+                44195,
+                11,
+                41594,
+                806,
+                14709,
+                288,
+                4976,
+                13427,
+                2002,
+                38271,
+                64,
+                2617,
+                2033,
+                656,
+                25472,
+                1690,
+                715,
+                2202,
+                752,
+                13,
+                51127
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " Ahora,",
+                    "start": 150.86,
+                    "end": 151.1,
+                    "probability": 0.9358550906181335
+                },
+                {
+                    "word": " para",
+                    "start": 151.12,
+                    "end": 151.24,
+                    "probability": 0.9989283680915833
+                },
+                {
+                    "word": " ejecutar",
+                    "start": 151.24,
+                    "end": 151.46,
+                    "probability": 0.8752146561940511
+                },
+                {
+                    "word": " tu",
+                    "start": 151.46,
+                    "end": 151.54,
+                    "probability": 0.5875928997993469
+                },
+                {
+                    "word": " c\u00f3digo,",
+                    "start": 151.54,
+                    "end": 151.66,
+                    "probability": 0.9954498410224915
+                },
+                {
+                    "word": " abre",
+                    "start": 151.86,
+                    "end": 152.06,
+                    "probability": 0.5150535702705383
+                },
+                {
+                    "word": " el",
+                    "start": 152.06,
+                    "end": 152.26,
+                    "probability": 0.8409633040428162
+                },
+                {
+                    "word": " terminal",
+                    "start": 152.26,
+                    "end": 152.56,
+                    "probability": 0.9805678725242615
+                },
+                {
+                    "word": " y",
+                    "start": 152.56,
+                    "end": 152.82,
+                    "probability": 0.9735618233680725
+                },
+                {
+                    "word": " utiliza",
+                    "start": 152.82,
+                    "end": 153.24,
+                    "probability": 0.6351518630981445
+                },
+                {
+                    "word": " una",
+                    "start": 153.24,
+                    "end": 153.34,
+                    "probability": 0.9676145911216736
+                },
+                {
+                    "word": " herramienta",
+                    "start": 153.34,
+                    "end": 153.66,
+                    "probability": 0.9991891384124756
+                },
+                {
+                    "word": " como",
+                    "start": 153.66,
+                    "end": 153.72,
+                    "probability": 0.9960024952888489
+                },
+                {
+                    "word": " Clang++",
+                    "start": 153.72,
+                    "end": 154.34,
+                    "probability": 0.9835247198740641
+                },
+                {
+                    "word": " para",
+                    "start": 154.34,
+                    "end": 154.74,
+                    "probability": 0.9973735809326172
+                },
+                {
+                    "word": " compilarlo.",
+                    "start": 154.74,
+                    "end": 155.32,
+                    "probability": 0.8649251659711202
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "seek": 14012,
+            "start": 156.32,
+            "end": 158.8,
+            "text": " Esto ha sido C++ en 100 segundos.",
+            "tokens": [
+                51127,
+                20880,
+                324,
+                14444,
+                383,
+                25472,
+                465,
+                2319,
+                40108,
+                13,
+                51302
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " Esto",
+                    "start": 156.32,
+                    "end": 156.72,
+                    "probability": 0.8406516313552856
+                },
+                {
+                    "word": " ha",
+                    "start": 156.72,
+                    "end": 156.86,
+                    "probability": 0.9099410176277161
+                },
+                {
+                    "word": " sido",
+                    "start": 156.86,
+                    "end": 157.0,
+                    "probability": 0.9985400438308716
+                },
+                {
+                    "word": " C++",
+                    "start": 157.0,
+                    "end": 157.6,
+                    "probability": 0.9963431060314178
+                },
+                {
+                    "word": " en",
+                    "start": 157.6,
+                    "end": 158.04,
+                    "probability": 0.9931735396385193
+                },
+                {
+                    "word": " 100",
+                    "start": 158.04,
+                    "end": 158.3,
+                    "probability": 0.995273768901825
+                },
+                {
+                    "word": " segundos.",
+                    "start": 158.3,
+                    "end": 158.8,
+                    "probability": 0.9874778985977173
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "seek": 14012,
+            "start": 159.0,
+            "end": 161.78,
+            "text": " Dale a like y suscr\u00edbete si quieres ver m\u00e1s videos cortos como este.",
+            "tokens": [
+                51302,
+                31329,
+                257,
+                411,
+                288,
+                3291,
+                10757,
+                49662,
+                3498,
+                1511,
+                29839,
+                1306,
+                3573,
+                2145,
+                11278,
+                329,
+                2617,
+                4065,
+                13,
+                51449
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " Dale",
+                    "start": 159.0,
+                    "end": 159.08,
+                    "probability": 0.10614211112260818
+                },
+                {
+                    "word": " a",
+                    "start": 159.08,
+                    "end": 159.2,
+                    "probability": 0.6384950876235962
+                },
+                {
+                    "word": " like",
+                    "start": 159.2,
+                    "end": 159.38,
+                    "probability": 0.8155913949012756
+                },
+                {
+                    "word": " y",
+                    "start": 159.38,
+                    "end": 159.54,
+                    "probability": 0.9976145029067993
+                },
+                {
+                    "word": " suscr\u00edbete",
+                    "start": 159.54,
+                    "end": 160.28,
+                    "probability": 0.990783229470253
+                },
+                {
+                    "word": " si",
+                    "start": 160.28,
+                    "end": 160.38,
+                    "probability": 0.9958534240722656
+                },
+                {
+                    "word": " quieres",
+                    "start": 160.38,
+                    "end": 160.54,
+                    "probability": 0.987817108631134
+                },
+                {
+                    "word": " ver",
+                    "start": 160.54,
+                    "end": 160.72,
+                    "probability": 0.9986629486083984
+                },
+                {
+                    "word": " m\u00e1s",
+                    "start": 160.72,
+                    "end": 160.9,
+                    "probability": 0.964619517326355
+                },
+                {
+                    "word": " videos",
+                    "start": 160.9,
+                    "end": 161.04,
+                    "probability": 0.8964518308639526
+                },
+                {
+                    "word": " cortos",
+                    "start": 161.04,
+                    "end": 161.18,
+                    "probability": 0.8047847747802734
+                },
+                {
+                    "word": " como",
+                    "start": 161.18,
+                    "end": 161.52,
+                    "probability": 0.9789984822273254
+                },
+                {
+                    "word": " este.",
+                    "start": 161.52,
+                    "end": 161.78,
+                    "probability": 0.9779762625694275
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "seek": 14012,
+            "start": 161.94,
+            "end": 164.12,
+            "text": " Gracias por ver y te ver\u00e9 en el pr\u00f3ximo.",
+            "tokens": [
+                51449,
+                26909,
+                1515,
+                1306,
+                288,
+                535,
+                1306,
+                526,
+                465,
+                806,
+                21177,
+                13,
+                51577
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.40078969245409446,
+            "compression_ratio": 1.531055900621118,
+            "no_speech_prob": 0.03812849894165993,
+            "words": [
+                {
+                    "word": " Gracias",
+                    "start": 161.94,
+                    "end": 162.12,
+                    "probability": 0.9726448059082031
+                },
+                {
+                    "word": " por",
+                    "start": 162.12,
+                    "end": 162.26,
+                    "probability": 0.999889612197876
+                },
+                {
+                    "word": " ver",
+                    "start": 162.26,
+                    "end": 162.36,
+                    "probability": 0.9434377551078796
+                },
+                {
+                    "word": " y",
+                    "start": 162.36,
+                    "end": 162.72,
+                    "probability": 0.6166999340057373
+                },
+                {
+                    "word": " te",
+                    "start": 162.72,
+                    "end": 163.14,
+                    "probability": 0.5397259593009949
+                },
+                {
+                    "word": " ver\u00e9",
+                    "start": 163.14,
+                    "end": 163.58,
+                    "probability": 0.8624824285507202
+                },
+                {
+                    "word": " en",
+                    "start": 163.58,
+                    "end": 163.78,
+                    "probability": 0.9998685121536255
+                },
+                {
+                    "word": " el",
+                    "start": 163.78,
+                    "end": 163.88,
+                    "probability": 0.9986408352851868
+                },
+                {
+                    "word": " pr\u00f3ximo.",
+                    "start": 163.88,
+                    "end": 164.12,
+                    "probability": 0.8342993259429932
+                }
+            ]
+        }
+    ],
+    "language": "Spanish"
+}
